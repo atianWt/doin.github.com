@@ -1,7 +1,7 @@
 ---
 layout: default
-title: ä½ å¥½ï¼Œä¸–ç•Œ
+title: ÄãºÃ£¬ÊÀ½ç
 ---
 ### {{ page.title }}
-## æˆ‘çš„ç¬¬ä¸€ç¯‡æ–‡ç« 
+## ÎÒµÄµÚÒ»ÆªÎÄÕÂ
 > {{ page.date | date_to_string }}
