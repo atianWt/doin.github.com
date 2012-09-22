@@ -5,6 +5,16 @@ markdown: kramdown
 pygments: true 
 fff: www.taobao.com 
 
+title : Doin
+tagline: Site Tagline
+
+author :
+  name : Doin
+  email : doin@foxmail.com
+  github : doin
+  twitter : doin
+  feedburner : feedname
+
 JB :
   version : 0.2.0
 
