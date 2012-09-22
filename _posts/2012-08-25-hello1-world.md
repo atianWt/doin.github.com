@@ -3,7 +3,6 @@ layout: post
 title: github+markdown玩博客
 ---
 ### {{ page.title }}
-## 我的第一篇文章
 
 > {{ page.date | date_to_string }}
 
@@ -14,7 +13,7 @@ title: github+markdown玩博客
 > 22222222222
 >> 3333333333333
 
-```
+```html
 	<div>adfafasfasf</div>
 	dafadsfasfsafasfdsfasfsafsaf
 		adfasff
