@@ -14,11 +14,11 @@ title: github+markdownÍæ²©¿Í
 >> 3333333333333
 
 ```ruby
-<div>adfafasfasf</div>
-dafadsfasfsafasfdsfasfsafsaf
-	adfasff
-	if(esle0) ok
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
 ```
+
 adfafsfsafsafasdfdasf     
 
 > fadfadsfasdfasfasf
