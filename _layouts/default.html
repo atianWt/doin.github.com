@@ -31,7 +31,7 @@
 
     <ul>
     {% for tag in site.tags %} 
-      <li><a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag }}-ref">{{ tag }} <span>{{ site.tags[tag].size }}</span></a></li>
+      <li><a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag }}-ref">{{ tag[0] }} </a></li>
     {% endfor %}
     </ul>
   </div>
