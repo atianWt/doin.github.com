@@ -3,6 +3,7 @@
 markdown: kramdown
 # 开启代码高亮
 pygments: true 
+fff: www.taobao.com 
 
 JB :
   version : 0.2.0
