@@ -1,6 +1,6 @@
 ---
-layout: default
-title: 你好，世界
+layout: page
+title: github+markdown玩博客
 ---
 ### {{ page.title }}
 ## 我的第一篇文章
