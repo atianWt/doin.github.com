@@ -2,3 +2,8 @@
 markdown: rdiscount
 pygments: true
 titile: Doin Blog
+
+archive_path: /archive.html
+categories_path : /categories.html
+tags_path : /tags.html
+about_path : /about.html
