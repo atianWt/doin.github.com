@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: github+markdownÍæ²©¿Í
 ---
 ### {{ page.title }}
