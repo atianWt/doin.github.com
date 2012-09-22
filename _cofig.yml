@@ -1,8 +1,12 @@
 
-markdown: rdiscount 
+# markdown: rdiscount 解析器类型
+markdown: kramdown
+# 开启代码高亮
 pygments: true 
 titile: Doin Blog 
-archive_path: /archive.html 
-categories_path : /categories.html 
-tags_path : /tags.html 
-about_path : /about.html 
+
+JB: 
+  archive_path: /archive.html 
+  categories_path : /categories.html 
+  tags_path : /tags.html 
+  about_path : /about.html 
