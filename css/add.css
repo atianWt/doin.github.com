@@ -1,5 +1,5 @@
-nav ul { list-style: none; }
-nav ul li {
+.nav ul { list-style: none; }
+.nav li {
 			float: left; 
 			width: 30px;
 			height: 33px;
