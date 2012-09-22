@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
    <meta http-equiv="content-type" content="text/html; charset=gbk" />
-   <title>{{ page.title }}</title>
+   <title>{{ page.title }} {{ site.tags_path }}</title>
    <meta name="author" content="Doin" />
    <!-- syntax highlighting CSS -->
    <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
@@ -28,7 +28,11 @@
         doin@foxmail.com
       </p>
     </div>
-    aaaaaaaaaaaaa {{ site.title }} {{ site.tags_path }} {{ page.tags_path }}
+    <div>
+      cc 
+      {{ site.title }} 
+       {{ page.tags_path }}
+    </div>
     <ul>
     {% for tag in site.tags %} 
       <li><a href="{{ BASE_PATH }}{{ site.tags_path }}#{{ tag[0] }}-ref">{{ tag[0] }} <span>{{ site.tags[tag].size }}</span></a></li>
