@@ -1,2 +1,9 @@
-nav ul { list-style-type: none; }
-nav ul li { list-style-type: none; float: left; }
+nav ul { list-style: none; }
+nav ul li {
+			float: left; 
+			width: 96px;
+			height: 33px;
+			float: left;
+			position: relative;
+			text-align: center; 
+		   }
