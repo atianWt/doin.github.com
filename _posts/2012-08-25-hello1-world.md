@@ -13,7 +13,7 @@ title: github+markdownÍæ²©¿Í
 > 22222222222
 >> 3333333333333
 
-```html
+```ruby
 	<div>adfafasfasf</div>
 	dafadsfasfsafasfdsfasfsafsaf
 		adfasff
