@@ -4,6 +4,6 @@ nav ul li {
 			width: 30px;
 			height: 33px;
 			float: left;
-			position: relative;
+			/*position: relative;*/
 			text-align: center; 
 		   }
