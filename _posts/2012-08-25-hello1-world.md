@@ -15,14 +15,12 @@ tags: [markdown, asp]
 > 22222222222
 >> 3333333333333
 
-```python
-class Foo:
-def hello(self):
-print("hello, world")
+	class Foo:
+	def hello(self):
+	print("hello, world")
 
-f = Foo()
-f.hello()
-```
+	f = Foo()
+	f.hello()
 
 - ccccccccccc
 - ddddddddddd
