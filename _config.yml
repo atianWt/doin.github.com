@@ -3,7 +3,7 @@
 # markdown: kramdown
 # 开启代码高亮
 pygments: true
-auto: false
+auto: true 
 
 title : Doin
 tagline: Site Tagline
