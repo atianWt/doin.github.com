@@ -1,8 +1,2 @@
-.nav { list-style: none; }
-.nav li {
-			width: 30px;
-			height: 33px;
-			float: left;
-			/*position: relative;*/
-			text-align: center; 
-		   }
+.nav { list-style: none; height: 33px; }
+.nav li { float: left; margin-right: 15px; text-align: center; }
