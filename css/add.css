@@ -1,6 +1,5 @@
-.nav ul { list-style: none; }
+.nav { list-style: none; }
 .nav li {
-			float: left; 
 			width: 30px;
 			height: 33px;
 			float: left;
