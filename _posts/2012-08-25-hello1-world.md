@@ -15,12 +15,11 @@ tags: [markdown, asp]
 > 22222222222
 >> 3333333333333
 
-	class Foo:
-	def hello(self):
-	print("hello, world")
-
-	f = Foo()
-	f.hello()
+{% highlight php %}
+<?php
+echo "hello";
+?>
+{% endhighlight %}
 
 - ccccccccccc
 - ddddddddddd
