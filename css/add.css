@@ -1,5 +1,5 @@
 .nav { list-style: none; height: 33px; margin-bottom: 10px; }
 .nav li { float: left; margin-right: 15px; text-align: center; border-bottom: 2px solid #EC008C; }
-.tags ul { list-style: none; }
+.tags ul { list-style: none; margin-top: 20px; }
 .tags { float: right; width: 100px; margin: 0px 10px 10px 10px; }
 .tags li {  }
