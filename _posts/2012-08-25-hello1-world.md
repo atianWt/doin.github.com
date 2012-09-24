@@ -3,7 +3,8 @@ layout: post
 title: github+markdownÍæ²©¿Í
 tags: [markdown, asp]
 ---
-### {{ page.title }}          {{ page.date | date_to_string }}
+### {{ page.title }}          
+> {{ page.date | date_to_string }}
 
 * aaaaaaaa
 * bbbbbbbb
