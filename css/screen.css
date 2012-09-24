@@ -40,7 +40,7 @@ a {
 }
 a:hover {
   color: #005580;
-  text-decoration: underline;
+  border-bottom-color: #000;
 }
 
 table {
