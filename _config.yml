@@ -25,3 +25,16 @@ JB :
   #categories_path : /categories.html
   tags_path : /tags.html
   #about_path : /about.html 
+  comments :
+    provider : disqus
+    disqus :
+      short_name : doin
+    livefyre :
+      site_id : 123
+    intensedebate :
+      account : 123abc
+    facebook :
+      appid : 123
+      num_posts: 5
+      width: 580
+      colorscheme: light
