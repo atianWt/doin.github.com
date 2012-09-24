@@ -1,9 +1,8 @@
 
-# markdown: rdiscount 解析器类型
-markdown: kramdown 
+markdown: rdiscount 解析器类型
+# markdown: kramdown
 # 开启代码高亮
-pygments: true 
-fff: www.taobao.com 
+pygments: true
 auto: true 
 
 title : Doin
