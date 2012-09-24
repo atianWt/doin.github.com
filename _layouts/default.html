@@ -38,6 +38,11 @@
       </li>
     </ul>
   </div>
+  <ul class="tags">
+    {% for tag in site.tags %} 
+      <li><a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag[0] }}-ref">{{ tag[0] }} <span>{{ site.tags[tag].size }}</span></a></li>
+    {% endfor %}
+  </ul>
 
   {{ content }}
   
@@ -49,12 +54,6 @@
         doin@foxmail.com
       </p>
     </div>
-
-    <ul>
-    {% for tag in site.tags %} 
-      <li><a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag[0] }}-ref">{{ tag[0] }} <span>{{ site.tags[tag].size }}</span></a></li>
-    {% endfor %}
-    </ul>
   </div>
 </div>
 </body>
