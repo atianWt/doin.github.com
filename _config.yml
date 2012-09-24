@@ -1,6 +1,6 @@
 
 # markdown: rdiscount 解析器类型
-markdown: kramdown
+markdown: kramdown 
 # 开启代码高亮
 pygments: true 
 fff: www.taobao.com 
