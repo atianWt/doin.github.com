@@ -1,2 +1,2 @@
 .nav { list-style: none; height: 33px; margin-bottom: 10px; }
-.nav li { float: left; margin-right: 15px; text-align: center; }
+.nav li { float: left; margin-right: 15px; text-align: center; border-bottom: 2px solid #EC008C; }
