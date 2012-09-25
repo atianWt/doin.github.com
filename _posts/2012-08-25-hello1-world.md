@@ -27,6 +27,8 @@ tags: [markdown, asp]
 	
 > 现在不用安装，就是稍麻烦点
 
+	codeing~
+
 {% highlight php %}
 <?php
 //asdadasdasd
