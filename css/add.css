@@ -1,8 +1,0 @@
-.nav { list-style: none; height: 33px; margin-bottom: 10px; }
-.nav li { float: left; margin-right: 15px; text-align: center; border-bottom: 2px solid #a00; }
-.nav li:hover { border-bottom-color: #000; }
-.tags ul { list-style: none; margin-top: 20px; }
-.tags { float: right; width: 100px; margin: 0px 10px 10px 10px; }
-.tags li {  }
-#home { margin-right: 130px; border-right: 2px solid #345;  }
-.nav 
