@@ -103,16 +103,14 @@ ul.posts {
   .footer {
     font-size: 80%;
     color: #666;
-    border-top: 4px solid #eee;
-    margin-top: 2em;
     /*overflow: hidden;*/
     background-color: #252526;
     width: 100%;
     clear: right;
+    height: 100%;
   }
 
     .footer .contact {
-      float: left;
       margin-right: 3em;
     }
 
