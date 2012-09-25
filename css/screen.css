@@ -62,11 +62,14 @@ ul.posts {
 /* Site
 /*
 /*****************************************************************************/
-
+#home {
+  height: 100%;
+}
 .site {
   text-align: justify;
   width: 800px;
   margin: auto 0;
+  height: 100%;
 }
 
 .title {
