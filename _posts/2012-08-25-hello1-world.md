@@ -8,9 +8,9 @@ tags: [markdown, asp]
 
 ## 高亮代码
 
-> 我把xieyu.github.com上的pygments样式替换了syntax里的默认样式
-> 扒了pre，code样式文件
-> 用法上的不一样从
+> 我把xieyu.github.com上的pygments样式替换了syntax里的默认样式  
+> 扒了pre，code样式文件  
+> 用法上的不一样从  
 	```php
 	codeing	~
 	```
@@ -21,9 +21,9 @@ tags: [markdown, asp]
 	{|% highlight %|}
 
 > 测试高亮
-	{% highlight php %}
-	<?php
-	//asdadasdasd
-	echo "hello";
-	?>
-	{% endhighlight %}  
+{% highlight php %}
+<?php
+//asdadasdasd
+echo "hello";
+?>
+{% endhighlight %}  
