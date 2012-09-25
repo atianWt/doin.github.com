@@ -69,8 +69,8 @@ ul.posts {
 .site {
   font-size: 110%;
   text-align: justify;
-  width: 40em;
-  margin: 3em auto 2em auto;
+  /*width: 40em;*/
+  margin: 20% auto;
   line-height: 1.5em;
 }
 
@@ -104,8 +104,10 @@ ul.posts {
     color: #666;
     border-top: 4px solid #eee;
     margin-top: 2em;
-    overflow: hidden;
+    /*overflow: hidden;*/
     background-color: #252526;
+    width: 100%;
+    clear: both;
   }
 
     .site .footer .contact {
