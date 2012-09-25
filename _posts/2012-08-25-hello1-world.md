@@ -27,7 +27,7 @@ tags: [markdown, asp]
 	
 > 现在不用安装，就是稍麻烦点
 
-	\{\% highlight php \%\}
+	'{% highlight php %}'
 	codeing~
 
 {% highlight php %}
