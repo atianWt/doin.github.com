@@ -21,9 +21,5 @@ echo "hello";
 ?>
 {% endhighlight %}  
 
-{% highlight html %}
-<div>HTML∏ﬂ¡¡</div>
-{% endhighlight %}
-
 - ccccccccccc
 - ddddddddddd
