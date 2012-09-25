@@ -1,6 +1,6 @@
 /*****************************************************************************/
 /*
-/* Common
+/* Common home post
 /*
 /*****************************************************************************/
 
@@ -17,7 +17,7 @@ html, body {
 
 body {
   background-color: #2d2d30;
-  font: 12px helvetica, arial, clean, sans-serif;
+  font: 14px helvetica, arial, 雅黑, sans-serif;
   text-align: center;
   color: #b3b3b3;
   /*#009fb 亮蓝;
@@ -26,7 +26,6 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%;
   color: #fff;
 }
 
@@ -38,87 +37,29 @@ a:hover {
   color: #009700;
 }
 
-/*****************************************************************************/
-/* Home
-/*****************************************************************************/
+/* Home */
+
+#home {
+  height: 100%;
+}
+
+/* post */
 
 ul.posts {
   list-style-type: none;
   margin-bottom: 4px;
 }
 
-  ul.posts li {
-    line-height: 17px;
-  }
-
-  ul.posts span {
-    color: #aaa;
-    font-family: Monaco, "Courier New", monospace;
-    font-size: 12px;
-  }
-
-/*****************************************************************************/
-/*
-/* Site
-/*
-/*****************************************************************************/
-#home {
-  height: 100%;
-}
-.site {
-  text-align: justify;
-  width: 800px;
-  margin: auto 0;
-  height: 100%;
+ul.posts li {
+  line-height: 17px;
 }
 
-.title {
-  color: #a00;
-  font-weight: bold;
-  margin-bottom: 4px;
+ul.posts span {
+  color: #aaa;
+  font-family: Monaco, "Courier New", monospace;
+  font-size: 12px;
 }
 
-  .site .title a {
-    color: #a00;
-    text-decoration: none;
-  }
-
-  .site .title a:hover {
-    color: black;
-  }
-
-  .site .title a.extra {
-    color: #aaa;
-    text-decoration: none;
-    margin-left: 2px;
-  }
-
-  .site .title a.extra:hover {
-    color: black;
-  }
-
-  .footer {
-    font-size: 12px;
-    color: #666;
-    /*overflow: hidden;*/
-    background-color: #252526;
-    width: 100%;
-    clear: right;
-  }
-
-    .footer .contact {
-      margin-right: 3px;
-    }
-
-/*****************************************************************************/
-/*
-/* Posts
-/*
-/*****************************************************************************/
-
-#post {
-
-}
 /**********************************************/
 /* blockquote
 /**********************************************/
@@ -177,7 +118,56 @@ pre code {
   border: 0;
 }
 
-/* 最后发表文章　*/
+/* Site */
+
+.site {
+  text-align: justify;
+  width: 800px;
+  margin: auto 0;
+  height: 100%;
+}
+
+.title {
+  color: #a00;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.site .title a {
+  color: #a00;
+  text-decoration: none;
+}
+
+.site .title a:hover {
+  color: black;
+}
+
+.site .title a.extra {
+  color: #aaa;
+  text-decoration: none;
+  margin-left: 2px;
+}
+
+.site .title a.extra:hover {
+  color: black;
+}
+
+/* footer */
+
+.footer {
+  font-size: 12px;
+  color: #666;
+  background-color: #252526;
+  width: 100%;
+  clear: right;
+}
+
+.footer .contact {
+    margin-right: 3px;
+  }
+
+/* related 最后发表文章　*/
+
 #related {
   margin-top: 4px;
 }
