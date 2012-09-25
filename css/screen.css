@@ -70,7 +70,7 @@ ul.posts {
   font-size: 110%;
   text-align: justify;
   /*width: 40em;*/
-  margin: 20% auto;
+  margin: auto 20%;
   line-height: 1.5em;
 }
 
@@ -107,7 +107,7 @@ ul.posts {
     /*overflow: hidden;*/
     background-color: #252526;
     width: 100%;
-    clear: both;
+    clear: right;
   }
 
     .site .footer .contact {
