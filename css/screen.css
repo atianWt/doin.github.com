@@ -26,6 +26,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-size: 14px;
   color: #fff;
 }
 
@@ -123,7 +124,7 @@ pre code {
 .site {
   text-align: justify;
   width: 800px;
-  margin: auto 0;
+  margin: 0 auto;
   height: 100%;
 }
 
