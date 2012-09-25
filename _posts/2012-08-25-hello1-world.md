@@ -22,11 +22,7 @@ tags: [markdown, asp]
 //{% highlight php %}
 echo "hello";
 ?>
-{% endhighlight %}
-
-{% highlight html %}
-<div>HTML∏ﬂ¡¡</div>
-{% endhighlight %}
+{% endhighlight %}  
 
 - ccccccccccc
 - ddddddddddd
