@@ -70,6 +70,7 @@ ul.posts {
   font-size: 110%;
   text-align: justify;
   /*width: 40em;*/
+  height: 100%;
   margin: auto 20%;
   line-height: 1.5em;
 }

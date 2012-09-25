@@ -2,6 +2,6 @@
 .nav li { float: left; margin-right: 15px; text-align: center; border-bottom: 2px solid #a00; }
 .nav li:hover { border-bottom-color: #000; }
 .tags ul { list-style: none; margin-top: 20px; }
-.tags { float: right; width: 150px; margin: 0px 10px 10px 10px; }
+.tags { float: right; width: 150px; margin: 0px 10px 10px 10px;  }
 .tags li {  }
 #home, #post { margin-right: 170px; border-right: 2px solid #345;  }
