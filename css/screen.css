@@ -21,31 +21,22 @@ body {
   *font-size: small;
   text-align: center;
   color: #b3b3b3;
+  /*#009fb 亮蓝;
+  #204d6d 暗蓝;
+  #252526 灰底*/
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
-}
-
-h1 {
-  margin-bottom: 1em;
-}
-
-p {
-  margin: 1em 0;
+  color: #fff;
 }
 
 a {
-  color: #0088cc;
+  color: #0097fb;
   text-decoration: none;
 }
 a:hover {
-  color: #005580;
-}
-
-table {
-  font-size: inherit;
-  font: 100%;
+  color: #009700;
 }
 
 /*****************************************************************************/
