@@ -4,4 +4,4 @@
 .tags ul { list-style: none; margin-top: 20px; }
 .tags { float: right; width: 150px; margin: 0px 10px 10px 10px; }
 .tags li {  }
-#home, #page { margin-right: 170px; border-right: 2px solid #345;  }
+#home, #post { margin-right: 170px; border-right: 2px solid #345;  }
