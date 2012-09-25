@@ -99,36 +99,19 @@ ul.posts {
     color: black;
   }
 
-  .site .meta {
-    color: #aaa;
-  }
-
   .site .footer {
     font-size: 80%;
     color: #666;
     border-top: 4px solid #eee;
     margin-top: 2em;
     overflow: hidden;
+    background-color: #252526;
   }
 
     .site .footer .contact {
       float: left;
       margin-right: 3em;
     }
-
-      .site .footer .contact a {
-        color: #8085C1;
-      }
-
-    .site .footer .rss {
-      margin-top: 1.1em;
-      margin-right: -.2em;
-      float: right;
-    }
-
-      .site .footer .rss img {
-        border: 0;
-      }
 
 /*****************************************************************************/
 /*
@@ -197,29 +180,7 @@ pre code {
   border: 0;
 }
 
-
-  /* standard */
-
-  #post ul,
-  #post ol {
-    margin-left: 1.35em;
-  }
-  /* terminal */
-
-  /*#post pre.terminal {
-    border: 1px solid black;
-    background-color: #333;
-    color: white;
-  }
-
-  #post pre.terminal code {
-    background-color: #333;
-  }*/
-
+/* 最后发表文章　*/
 #related {
   margin-top: 2em;
 }
-
-  #related h2 {
-    margin-bottom: 1em;
-  }
