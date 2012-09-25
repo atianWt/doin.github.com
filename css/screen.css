@@ -16,10 +16,11 @@ html, body {
 }
 
 body {
-  background-color: white;
+  background-color: #2d2d30;
   font: 13.34px helvetica, arial, clean, sans-serif;
   *font-size: small;
   text-align: center;
+  color: #b3b3b3;
 }
 
 h1, h2, h3, h4, h5, h6 {
