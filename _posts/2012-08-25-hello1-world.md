@@ -19,8 +19,13 @@ tags: [markdown, asp]
 
 {% highlight php %}
 <?php
+//{% highlight php %}
 echo "hello";
 ?>
+{% endhighlight %}
+
+{% highlight html %}
+<div>HTML∏ﬂ¡¡</div>
 {% endhighlight %}
 
 - ccccccccccc

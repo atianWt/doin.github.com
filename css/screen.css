@@ -147,7 +147,23 @@ ul.posts {
 #post {
 
 }
-
+/**********************************************/
+/* blockquote
+/**********************************************/
+blockquote {
+  padding: 0 0 0 15px;
+  margin: 0 0 18px;
+  border-left: 5px solid #eeeeee;
+}
+blockquote p {
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22.5px;
+}
+/**********************************************/
+/* code, pre 代码高亮
+/**********************************************/
 code, pre {
   padding: 0 3px 2px;
   font-family: Menlo, Monaco, "Courier New", monospace;
