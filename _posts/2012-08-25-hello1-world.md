@@ -17,6 +17,7 @@ tags: [markdown, asp]
 
 {% highlight php %}
 <?php
+//asdadasdasd
 echo "hello";
 ?>
 {% endhighlight %}  
