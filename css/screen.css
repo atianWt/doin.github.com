@@ -67,6 +67,35 @@ h6 {
   text-transform: uppercase;
 }
 
+p {
+  margin: 0 0 9px;
+  margin-bottom:20px;
+  /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-size: 12px;
+  line-height: 21px;
+}
+p small {
+  font-size: 11px;
+  color: #999999;
+}
+
+ul, ol {
+  padding: 0;
+  margin: 0 0 9px 25px;
+}
+ul ul, ul ol, ol ol, ol ul {
+  margin-bottom: 0;
+}
+ul {
+  list-style: disc;
+}
+ol {
+  list-style: decimal;
+}
+li {
+  line-height: 18px;
+}
+
 a {
   color: #0097fb;
   text-decoration: none;
