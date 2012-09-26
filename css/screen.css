@@ -19,7 +19,8 @@ body {
   /* background-color: #2d2d30; */
   font: 14px helvetica, arial, 雅黑, sans-serif;
   text-align: center;
-  color: #b3b3b3;
+  /*color: #b3b3b3;*/
+  color: #000;
   /*#009fb 亮蓝;
   #204d6d 暗蓝;
   #252526 灰底*/
@@ -104,29 +105,6 @@ a:hover {
   color: #009700;
 }
 
-/* Home */
-
-#home {
-  height: 100%;
-}
-
-/* post */
-
-ul.posts {
-  list-style-type: none;
-  margin-bottom: 4px;
-}
-
-ul.posts li {
-  line-height: 17px;
-}
-
-ul.posts span {
-  color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 12px;
-}
-
 /**********************************************/
 /* blockquote
 /**********************************************/
@@ -209,22 +187,22 @@ pre code {
   color: black;
 }
 
-.site .title a.extra {
-  color: #aaa;
-  text-decoration: none;
-  margin-left: 2px;
-}
+/* Home Post */
 
-.site .title a.extra:hover {
-  color: black;
+#home, #post {
+  height: 100%;
 }
 
 /* footer */
 
 .footer {
+  padding-top: 8px;
+  height: 80px;
+  margin-top: -80px;
   font-size: 12px;
-  color: #666;
-  background-color: #252526;
+  color: #f3f3f3;
+  /* background-color: #252526; */
+  background-color: #e6e6e6;
   width: 100%;
   clear: right;
 }
