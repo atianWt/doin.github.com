@@ -82,11 +82,9 @@ p small {
 
 ul, ol {
   padding: 0;
-  margin: 0 0 9px 25px;
+  margin: 0 0 30px 25px;
 }
-ul ul, ul ol, ol ol, ol ul {
-  margin-bottom: 0;
-}
+
 ul {
   list-style: disc;
 }
@@ -98,11 +96,11 @@ li {
 }
 
 a {
-  color: #0097fb;
+  color: #08c;
   text-decoration: none;
 }
 a:hover {
-  color: #009700;
+  color: #005580;
 }
 
 /**********************************************/
