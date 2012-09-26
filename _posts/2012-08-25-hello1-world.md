@@ -8,7 +8,7 @@ tags: [markdown, asp]
 
 ## 高亮代码
 
-> 我把xieyu.github.com上的pygments样式替换了syntax里的默认样式'super+shift+L'  
+> 我把xieyu.github.com上的pygments样式替换了syntax里的默认样式`super+shift+L`  
 > 扒了pre，code样式文件  
 > 用法上的不一样从  
 
