@@ -170,7 +170,7 @@ pre code {
   height: 100%;
 }
 
-.header { height: 50px; margin: 20px 0px; width: 580px; border-bottom:3px solid #fafafa; position: relative;}
+.header { height: 50px; margin: 20px 0px; width: 580px; border-bottom:3px solid #e6e6e6; position: relative;}
 
 .title {
   color: #a00;
@@ -195,13 +195,14 @@ pre code {
 /* footer */
 
 .footer {
+  margin-top: 10px;
   padding-top: 8px;
   height: 80px;
   /*margin-top: -80px;*/
   font-size: 12px;
   /*color: #f3f3f3;*/
   /* background-color: #252526; */
-  background-color: #e6e6e6;
+  background-color: #fafafa;
   width: 100%;
   clear: right;
 }
