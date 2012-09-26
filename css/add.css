@@ -1,5 +1,5 @@
 .nav { list-style: none; margin: 0 0 0 10px; position: absolute; right: 250px; bottom: 0px; }
-.nav li { float: left; text-align: center; background-color: #3d3d3d; width: 50px; height: 30px; line-height: 30px; }
+.nav li { float: left; text-align: center; background-color: #3d3d3d; width: 50px; height: 30px; line-height: 30px; padding: 0px 10px;}
 .nav li:hover { background-color: #887; }
 
 .tags ul { list-style: none; /*margin-top: 20px;*/ }
