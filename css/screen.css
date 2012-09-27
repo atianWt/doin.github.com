@@ -9,6 +9,37 @@
 .clr:after{ clear:both;} 
 .clr{ *zoom:1;}
 
+* {
+  margin: 0;
+  padding: 0; 
+}
+
+html, body {
+  /*height: 100%;*/
+}
+
+body {
+  font-family: helvetica, arial, ÑÅºÚ, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {¡¡margin: 0;  font-weight: bold;  color: #333333;  text-rendering: optimizelegibility;¡¡}
+h1 { font-size: 24px; }
+h2 { font-size: 20px; }
+h3 { font-size: 18px; }
+
+ul, ol {
+  padding: 0;
+  margin: 0 0 30px 25px;
+}
+
+a {
+  color: #08c;
+  text-decoration: none;
+}
+a:hover {
+  color: #005580;
+}
+
 /* Site */
 
 .site {
