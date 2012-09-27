@@ -8,7 +8,7 @@
 
 * {
   margin: 0;
-  padding: 0;
+  padding: 0; 
 }
 
 html, body {
@@ -17,16 +17,16 @@ html, body {
 
 body {
   /* background-color: #2d2d30; */
-  font: 14px helvetica, arial, é›…é»‘, sans-serif;
+  font: 14px helvetica, arial, ÑÅºÚ, sans-serif;
   text-align: center;
   /*color: #b3b3b3;*/
   color: #000;
-  /*#009fb äº®è“;
-  #204d6d æš—è“;
-  #252526 ç°åº•*/
+  /*#009fb ÁÁÀ¶;
+  #204d6d °µÀ¶;
+  #252526 »Òµ×*/
 }
 
-h1, h2, h3, h4, h5, h6 {ã€€margin: 0;  font-weight: bold;  color: #333333;  text-rendering: optimizelegibility;ã€€}
+h1, h2, h3, h4, h5, h6 {¡¡margin: 0;  font-weight: bold;  color: #333333;  text-rendering: optimizelegibility;¡¡}
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-weight: normal; color: #999999; }
 h1 { font-size: 24px; line-height: 20px; margin-bottom:15px; }
 h1 small { font-size: 18px; }
@@ -118,7 +118,7 @@ blockquote p {
   line-height: 22.5px;
 }
 /**********************************************/
-/* code, pre ä»£ç é«˜äº®
+/* code, pre ´úÂë¸ßÁÁ
 /**********************************************/
 code, pre {
   padding: 0 3px 2px;
@@ -207,7 +207,7 @@ pre code {
   clear: right;
 }
 
-/* related æœ€åŽå‘è¡¨æ–‡ç« ã€€*/
+/* related ×îºó·¢±íÎÄÕÂ¡¡*/
 
 #related {
   margin-top: 4px;
