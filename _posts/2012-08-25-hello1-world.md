@@ -10,14 +10,16 @@ tags: [markdown]
 > 我从这里开始[github Pages和JekyII入门](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)  
 > 很多JekyII的网站，直接下源码学习[传送门](https://github.com/mojombo/jekyll/wiki/Sites)
 
-### 一些技巧
-- 页内跳转
-
+## 一些技巧
 {% highlight html %}
+	<!-- 为了方便页内快速跳转，可建立空内容的锚点。比如 -->
 	<span id="jekyll-and-github"></span>
+	<!-- 使用　-->
 	[回去看看](#jekyll-and-github)
 	http://doin.github.com/#jekyll-and-github
 {% highlight %}
+
+- 页内跳转
 
 - 使用全局路径定义
 	> 在`_config.yml`中定义一个形如`img_url: http://doin.github.com/images`的变量  
