@@ -4,7 +4,7 @@ title: github.jeckII.markdown玩博客
 tags: [markdown]
 ---
 # {{ page.title }}
-`{{ page.date }}`  
+`{{ page.date | date_to_string }}`  
 
 ## 安装配置BLOG
 > 我从这里开始[github Pages和JekyII入门](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)  
