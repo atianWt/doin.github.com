@@ -12,13 +12,14 @@ tags: [markdown]
 
 ### 一些技巧
 - 页内跳转
-	{% highlight html %}
+
+{% highlight html %}
 	<!-- 为了方便页内快速跳转，可建立空内容的锚点。比如 -->
 	<span id="jekyll-and-github"></span>
 	<!-- 使用　-->
 	[回去看看](#jekyll-and-github)
 	http://doin.github.com/#jekyll-and-github
-	{% highlight %}
+{% highlight %}
 
 - 使用全局路径定义
 	> 在`_config.yml`中定义一个形如`img_url: http://doin.github.com/images`的变量  
