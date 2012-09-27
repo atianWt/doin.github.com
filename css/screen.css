@@ -5,6 +5,9 @@
 /*****************************************************************************/
 
 /* Global Reset */
+.clr:before,.clr:after{ content:''; display:table;} 
+.clr:after{ clear:both;} 
+.clr{ *zoom:1;}
 
 * {
   margin: 0;
@@ -168,6 +171,7 @@ pre code {
   width: 800px;
   margin: 0 auto;
   height: 100%;
+  margin-bottom: 10px;
 }
 
 .header { height: 50px; margin: 20px 0px; width: 100%; border-bottom:3px solid #e6e6e6; position: relative; }
@@ -195,7 +199,6 @@ pre code {
 /* footer */
 
 .footer {
-  margin-top: 10px;
   padding-top: 8px;
   height: 80px;
   /*margin-top: -80px;*/
