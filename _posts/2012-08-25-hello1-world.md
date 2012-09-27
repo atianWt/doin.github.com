@@ -11,7 +11,7 @@ tags: [markdown]
 > 很多JekyII的网站，直接下源码学习[传送门](https://github.com/mojombo/jekyll/wiki/Sites)
 
 ## 一些技巧
-{% highlight html %}
+{% highlight %}
 	<!-- 为了方便页内快速跳转，可建立空内容的锚点。比如 -->
 	<span id="jekyll-and-github"></span>
 	<!-- 使用　-->
