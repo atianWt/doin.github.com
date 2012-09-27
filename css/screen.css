@@ -170,7 +170,7 @@ pre code {
   height: 100%;
 }
 
-.header { height: 50px; margin: 20px 0px; width: 580px; border-bottom:3px solid #e6e6e6; position: relative;}
+.header { height: 50px; margin: 20px 0px; width: 100%; border-bottom:3px solid #e6e6e6; position: relative; }
 
 .title {
   color: #a00;
