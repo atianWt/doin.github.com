@@ -31,8 +31,8 @@ ul, ol {
   padding: 0;
   margin: 0 0 30px 25px;
 }
-ul { list-style: inherit; }
-ol { list-style: disc; }
+ul { list-style: disc; }
+ol { list-style: decimal; }
 
 a {
   color: #08c;
