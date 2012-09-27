@@ -11,7 +11,6 @@ tags: [markdown]
 > 很多JekyII的网站，直接下源码学习[传送门](https://github.com/mojombo/jekyll/wiki/Sites)
 
 ### 一些技巧
-- 页内跳转
 
 {% highlight html %}
 	<!-- 为了方便页内快速跳转，可建立空内容的锚点。比如 -->
@@ -32,7 +31,6 @@ tags: [markdown]
 	+ (使用)`{% include JB/disqus_comments %}`
 
 - 使用[disqus](http://www.disqus.com/)构建评论
-
 
 ## 高亮代码
 
