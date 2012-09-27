@@ -18,11 +18,11 @@ tags: [markdown]
 	[回去看看](#jekyll-and-github)
 	http://doin.github.com/#jekyll-and-github
 
-> 使用全局路径定义
-  - 在`_config.yml`中定义一个形如`img_url: http://doin.github.com/images`的变量  
-  -（使用）`![git代码库结构]({{ site.img_url }}/2012-06-27-git-transport.png)`  
-  - 在`_config.yml`中定义一个形如`css_url: http://doin.github.com/css`的变量  
-  -（使用）`<style src={{site.css_url}} />`  
+> 使用全局路径定义    
+	- 在`_config.yml`中定义一个形如`img_url: http://doin.github.com/images`的变量  
+  	-（使用）`![git代码库结构]({{ site.img_url }}/2012-06-27-git-transport.png)`  
+  	- 在`_config.yml`中定义一个形如`css_url: http://doin.github.com/css`的变量  
+  	-（使用）`<style src={{site.css_url}} />`  
 
 > 定义代码模板`_includes/JB`
 	+ 把一些重复的模块/JS自定义在`_includes文件夹下`
