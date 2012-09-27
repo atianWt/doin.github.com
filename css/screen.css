@@ -53,19 +53,18 @@ a:hover {
 .header { height: 50px; margin: 20px 0px; width: 100%; border-bottom:3px solid #e6e6e6; position: relative; }
 
 .title {
-  color: #d14;
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 4px;
 }
 
 .site .title a {
-  color: #a00;
+  color: #d14;
   text-decoration: none;
 }
 
 .site .title a:hover {
-  color: black;
+  color: #a00;
 }
 
 /* Home Post */
