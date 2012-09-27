@@ -11,29 +11,26 @@ tags: [markdown]
 > 很多JekyII的网站，直接下源码学习[传送门](https://github.com/mojombo/jekyll/wiki/Sites)
 
 ## 一些技巧
-
+> 页内跳转
 	<!-- 为了方便页内快速跳转，可建立空内容的锚点。比如 -->
 	<span id="jekyll-and-github"></span>
 	<!-- 使用　-->
 	[回去看看](#jekyll-and-github)
 	http://doin.github.com/#jekyll-and-github
 
-- 页内跳转
+> 使用全局路径定义
+  - 在`_config.yml`中定义一个形如`img_url: http://doin.github.com/images`的变量  
+  -（使用）`![git代码库结构]({{ site.img_url }}/2012-06-27-git-transport.png)`  
+  - 在`_config.yml`中定义一个形如`css_url: http://doin.github.com/css`的变量  
+  -（使用）`<style src={{site.css_url}} />`  
 
-- 使用全局路径定义
-	> 在`_config.yml`中定义一个形如`img_url: http://doin.github.com/images`的变量  
-	>>（使用）`![git代码库结构]({{ site.img_url }}/2012-06-27-git-transport.png)`  
-	> 在`_config.yml`中定义一个形如`css_url: http://doin.github.com/css`的变量  
-	>>（使用）`<style src={{site.css_url}} />`  
-
-- 定义代码模板`_includes/JB`
+> 定义代码模板`_includes/JB`
 	+ 把一些重复的模块/JS自定义在`_includes文件夹下`
 	+ (使用)`{\% include JB/disqus_comments \%}`
 
-- 使用[disqus](http://www.disqus.com/)构建评论
+> 使用[disqus](http://www.disqus.com/)构建评论
 
 ## 高亮代码
-
 > 我把xieyu.github.com上的pygments样式替换了syntax里的默认样式`super+shift+L`  
 > 扒了pre，code样式文件  
 > 用法上的不一样从  
