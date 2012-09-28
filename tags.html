@@ -1,18 +1,16 @@
 ---
-layout: default
-title: Doin's BLOG
+layout: page
+title: Tags
+header: Posts By Tag
+group: navigation
 ---
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
 
-  <h1>old Blog</h1>
-  <ul class="posts">
-    <li><span>year 2008</span> &raquo; <a href="http://www.taobao.com">javablog's Blog</a></li>
-    <li><span>year 2011</span> &raquo; <a href="http://www.taobao.com">163's Blog</a></li>
+<h1>TAGS</h1>
+{% for tag in site.tags %} 
+  <h2 id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>
+  <ul>
+    {% assign pages_list = tag[1] %}  
+    {% include JB/pages_list %}
   </ul>
- </div>
+{% endfor %}
+

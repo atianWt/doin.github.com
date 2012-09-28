@@ -83,7 +83,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : equation85
+      short_name : doin
     livefyre :
       site_id : 123
     intensedebate :
