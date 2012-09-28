@@ -8,7 +8,7 @@
 .clr:before,.clr:after{ content:''; display:table;} 
 .clr:after{ clear:both;} 
 .clr{ *zoom:1;}
-body { font-family: helvetica, arial, ÑÅºÚ, sans-serif; width: 100%; }
+body { font-family: helvetica, arial, ÑÅºÚ, sans-serif; width: 100%; background:url(images/bg.png) }
 h1, h2, h3, h4, h5, h6 {¡¡margin: 0;  font-weight: bold;  color: #333333;  text-rendering: optimizelegibility;¡¡}
 h1 { font-size: 24px; }
 h2 { font-size: 20px;   border-bottom: 0px solid #cccccc;}
