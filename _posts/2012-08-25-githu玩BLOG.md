@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: github.jeckII.markdownÍæ²©¿Í
 tags: [markdown]
 ---

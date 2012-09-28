@@ -1,11 +1,9 @@
 ---
 layout: post
 title: Tags
-header: Posts By Tag
-group: navigation
 ---
+<h1>{{ page.title }}</h1>
 
-<h1>TAGS</h1>
 {% for tag in site.tags %} 
   <h2 id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>
   <ul>
