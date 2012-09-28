@@ -6,7 +6,7 @@ title: Categories
   {% assign categories_list = site.categories %}
   {% include JB/categories_list %}
 </ul> -->
-<h1>{{ page.title }}</h1>
+<!-- <h1>{{ page.title }}</h1> -->
 
 {% for category in site.categories %} 
   <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h2>
