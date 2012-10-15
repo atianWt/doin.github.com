@@ -1,50 +1,50 @@
 ---
 layout: page
-title: github.jeckII.markdownç©åšå®¢
+title: github.jeckII.markdownÍæ²©¿Í
 tags: [markdown]
 ---
 # {{ page.title }}  `{{ page.date | date_to_string }}`  
 
-## å®‰è£…é…ç½®BLOG
-> æˆ‘ä»è¿™é‡Œå¼€å§‹[github Pageså’ŒJekyIIå…¥é—¨](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)  
-> å¾ˆå¤šJekyIIçš„ç½‘ç«™ï¼Œç›´æ¥ä¸‹æºç å­¦ä¹ [ä¼ é€é—¨](https://github.com/mojombo/jekyll/wiki/Sites)
+## °²×°ÅäÖÃBLOG
+> ÎÒ´ÓÕâÀï¿ªÊ¼[github PagesºÍJekyIIÈëÃÅ](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)  
+> ºÜ¶àJekyIIµÄÍøÕ¾£¬Ö±½ÓÏÂÔ´ÂëÑ§Ï°[´«ËÍÃÅ](https://github.com/mojombo/jekyll/wiki/Sites)
 
-## ä¸€äº›æŠ€å·§
-> é¡µå†…è·³è½¬
-	<!-- ä¸ºäº†æ–¹ä¾¿é¡µå†…å¿«é€Ÿè·³è½¬ï¼Œå¯å»ºç«‹ç©ºå†…å®¹çš„é”šç‚¹ã€‚æ¯”å¦‚ -->
+## Ò»Ğ©¼¼ÇÉ
+> Ò³ÄÚÌø×ª
+	<!-- ÎªÁË·½±ãÒ³ÄÚ¿ìËÙÌø×ª£¬¿É½¨Á¢¿ÕÄÚÈİµÄÃªµã¡£±ÈÈç -->
 	<span id="jekyll-and-github"></span>
-	<!-- ä½¿ç”¨ã€€-->
-	[å›å»çœ‹çœ‹](#jekyll-and-github)
+	<!-- Ê¹ÓÃ¡¡-->
+	[»ØÈ¥¿´¿´](#jekyll-and-github)
 	http://doin.github.com/#jekyll-and-github
 
-> ä½¿ç”¨å…¨å±€è·¯å¾„å®šä¹‰    
->> åœ¨`_config.yml`ä¸­å®šä¹‰ä¸€ä¸ªå½¢å¦‚`img_url: http://doin.github.com/images`çš„å˜é‡  
->>ï¼ˆä½¿ç”¨ï¼‰`![gitä»£ç åº“ç»“æ„]({{ site.img_url }}/2012-06-27-git-transport.png)`  
->> åœ¨`_config.yml`ä¸­å®šä¹‰ä¸€ä¸ªå½¢å¦‚`css_url: http://doin.github.com/css`çš„å˜é‡  
->>ï¼ˆä½¿ç”¨ï¼‰`<style src={{site.css_url}} />`  
+> Ê¹ÓÃÈ«¾ÖÂ·¾¶¶¨Òå    
+>> ÔÚ`_config.yml`ÖĞ¶¨ÒåÒ»¸öĞÎÈç`img_url: http://doin.github.com/images`µÄ±äÁ¿  
+>>£¨Ê¹ÓÃ£©`![git´úÂë¿â½á¹¹]({{ site.img_url }}/2012-06-27-git-transport.png)`  
+>> ÔÚ`_config.yml`ÖĞ¶¨ÒåÒ»¸öĞÎÈç`css_url: http://doin.github.com/css`µÄ±äÁ¿  
+>>£¨Ê¹ÓÃ£©`<style src={{site.css_url}} />`  
 
-> å®šä¹‰ä»£ç æ¨¡æ¿`_includes/JB`
->> æŠŠä¸€äº›é‡å¤çš„æ¨¡å—/JSè‡ªå®šä¹‰åœ¨`_includesæ–‡ä»¶å¤¹ä¸‹`
->> (ä½¿ç”¨)`{\% include JB/disqus_comments \%}`
+> ¶¨Òå´úÂëÄ£°å`_includes/JB`
+>> °ÑÒ»Ğ©ÖØ¸´µÄÄ£¿é/JS×Ô¶¨ÒåÔÚ`_includesÎÄ¼ş¼ĞÏÂ`
+>> (Ê¹ÓÃ)`{\% include JB/disqus_comments \%}`
 
-> ä½¿ç”¨[disqus](http://www.disqus.com/)æ„å»ºè¯„è®º
+> Ê¹ÓÃ[disqus](http://www.disqus.com/)¹¹½¨ÆÀÂÛ
 
-## é«˜äº®ä»£ç 
-> æˆ‘æŠŠxieyu.github.comä¸Šçš„pygmentsæ ·å¼æ›¿æ¢äº†syntaxé‡Œçš„é»˜è®¤æ ·å¼`super+shift+L`  
-> æ‰’äº†preï¼Œcodeæ ·å¼æ–‡ä»¶  
-> ç”¨æ³•ä¸Šçš„ä¸ä¸€æ ·ä»  
+## ¸ßÁÁ´úÂë
+> ÎÒ°Ñxieyu.github.comÉÏµÄpygmentsÑùÊ½Ìæ»»ÁËsyntaxÀïµÄÄ¬ÈÏÑùÊ½`super+shift+L`  
+> °ÇÁËpre£¬codeÑùÊ½ÎÄ¼ş  
+> ÓÃ·¨ÉÏµÄ²»Ò»Ñù´Ó  
 
 	```php
 	codeing	~
 	```
 
-> ç°åœ¨ä¸ç”¨å®‰è£…ï¼Œå°±æ˜¯ç¨éº»çƒ¦ç‚¹
+> ÏÖÔÚ²»ÓÃ°²×°£¬¾ÍÊÇÉÔÂé·³µã
 
 	{|% highlight php %|}
 	codeing~
 	{|% highlight %|}
 
-> æµ‹è¯•é«˜äº®
+> ²âÊÔ¸ßÁÁ
 
 {% highlight php %}
 <?php
