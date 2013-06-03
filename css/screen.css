@@ -1,0 +1,39 @@
+/*****************************************************************************/
+/*
+/* Common home post
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+.clr:before,.clr:after{ content:''; display:table;} 
+.clr:after{ clear:both;} 
+.clr{ *zoom:1;}
+body { font-family: helvetica, arial, 雅黑, sans-serif; width: 100%; background:url(../images/bg.png) repeat; }
+h1, h2, h3, h4, h5, h6 {　margin: 0;  font-weight: bold;  color: #333333;  text-rendering: optimizelegibility;　}
+h1 { font-size: 24px; }
+h2 { font-size: 20px;   border-bottom: 0px solid #cccccc;}
+h3 { font-size: 18px; }
+ul, ol { padding: 0; margin: 0 0 30px 25px;}
+ul { list-style: disc; }
+ol { list-style: decimal; }
+a {  color: #08c; text-decoration: none;}
+a:hover { color: #005580; }
+/* Site */
+.site { text-align: justify; width: 800px; margin: 0 auto;  height: 100%;  margin-bottom: 10px;}
+.header { height: 50px; margin: 20px 0px; width: 100%; border-bottom:3px solid #e6e6e6; position: relative; }
+.title { font-size: 18px;   font-weight: bold;   margin-bottom: 4px;}
+.site .title a { color: #d14;   text-decoration: none;}
+.site .title a:hover { color: #a00;}
+/* Home Post */
+#home, #post { margin: 10px 250px 0 0; }
+/* footer */
+.footer { padding-top: 8px;   height: 80px;  font-size: 12px; background-color: #fafafa;   width: 100%;   clear: right;
+}
+.nav { list-style: none; margin: 0 80px 0 10px; position: absolute; right: 0px; bottom: 0px; }
+.nav li { float: left; text-align: center; background-color: #f3f3f3; width: 50px; height: 30px; line-height: 30px; padding: 0px 15px; margin: 0 0 0 1px; }
+.nav li:hover { background-color: #ff1; }
+.tags ul { list-style: none; }
+.tags { float: right; width: 200px; padding-left: 20px;  border-left: 0px solid #fafafa;}
+.tags li { font-size: 18px; line-height: 20px;  }
+/* related 最后发表文章　*/
+#related { margin-top: 4px; }

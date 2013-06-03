@@ -1,6 +1,55 @@
----
-theme :
-  name : twitter
----
-{% include JB/setup %}
-{% include themes/twitter/default.html %}
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=gbk" />
+   <title>{{ page.title }}</title>
+   <meta name="author" content="Doin" />
+   <!-- syntax highlighting CSS -->
+   <link rel="stylesheet" href="/css/reset.css" type="text/css" />
+   <link rel="stylesheet" href="/css/markdown.css" />
+   <!-- <link rel="stylesheet" href="/css/add.css" type="text/css" /> -->
+   <!-- Homepage CSS -->
+   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+</head>
+<body>
+<!-- start site -->
+<div class="site clr">
+  <div class="header">
+    <div class="title">
+      <a href="/">Doin's BLOG</a>
+    </div>
+    <ul class="nav">
+      <li class="nav-li"><a href="/">Home</a></li>
+      <li class="nav-li"><a href="/archive.html">Archive</a></li>
+      <li class="nav-li"><a href="/categories.html">Itme</a></li>
+      <li class="nav-li"><a href="/tags.html">Tags</a></li>
+      <li class="nav-li"><a href="/about.html">About</a></li>
+    </ul>
+  </div>
+  <div class="tags">
+    <h2>Tags</h2>
+    <ul>
+      {% for tag in site.tags %} 
+        <li><a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag[0] }}-ref">{{ tag[0] }} <span>{{ site.tags[tag].size }}</span></a></li>
+      {% endfor %}
+    </ul>
+
+    {% include JB/disqus_comments %}
+  
+  {{ content }}
+
+  </div>
+</div>
+<!-- end site -->
+
+<!-- start footer -->
+<div class="footer">
+  <p>
+    Doin<br />
+    Cofounder of <a href="http://github.com/doin">GitHub</a><br />
+    doin@foxmail.com
+  </p>
+</div>
+<!-- end footer -->
+</body>
+</html>
