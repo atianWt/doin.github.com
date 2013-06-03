@@ -1,11 +1,12 @@
 
-http://username.github.io/archive.html
-http://username.github.io/atom.xml
-http://username.github.io/categories.html
-http://username.github.io/index.html
-http://username.github.io/pages.html
-http://username.github.io/rss.xml
-http://username.github.io/sitemap.txt
-http://username.github.io/tags.html
+http://doin.github.com/archive.html
+http://doin.github.com/atom.xml
+http://doin.github.com/categories.html
+http://doin.github.com/index.html
+http://doin.github.com/pages.html
+http://doin.github.com/rss.xml
+http://doin.github.com/sitemap.txt
+http://doin.github.com/tags.html
 
-http://username.github.io/lessons/2011/12/29/jekyll-introduction
+http://doin.github.com/lessons/2013/06/03/about
+http://doin.github.com/lessons/2011/12/29/jekyll-introduction
