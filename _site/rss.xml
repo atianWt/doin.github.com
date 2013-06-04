@@ -5,51 +5,73 @@
         <description>Doin's Blog - Doin</description>
         <link>http://doin.github.io</link>
         <link>http://doin.github.io</link>
-        <lastBuildDate>2013-06-04T14:19:00+08:00</lastBuildDate>
-        <pubDate>2013-06-04T14:19:00+08:00</pubDate>
+        <lastBuildDate>2013-06-04T14:29:18+08:00</lastBuildDate>
+        <pubDate>2013-06-04T14:29:18+08:00</pubDate>
         <ttl>1800</ttl>
 
 
         <item>
-                <title>Tets1</title>
-                <description>&lt;p&gt;aaaa&lt;/p&gt;
+                <title>资料</title>
+                <description>&lt;h1 id='_'&gt;资料 &lt;code&gt;13 Dec 2012&lt;/code&gt;&lt;/h1&gt;
 
-&lt;p&gt;bbbb This Jekyll introduction will outline specifically what Jekyll is and why you would want to use it. Directly following the intro&lt;/p&gt;</description>
-                <link>http://doin.github.io/lessons/2013/01/02/tets1</link>
-                <guid>http://doin.github.io/lessons/2013/01/02/tets1</guid>
-                <pubDate>2013-01-02T00:00:00+08:00</pubDate>
-        </item>
+&lt;h3 id='id22'&gt;原型&lt;/h3&gt;
 
-        <item>
-                <title>Test</title>
-                <description>&lt;p&gt;aaaa&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href='http://10.12.31.132/test/临时原型/首页.html#OnLoadVariable=&amp;amp;curPage=1&amp;amp;CSUM=1'&gt;html5:ipad原型&lt;/a&gt;&lt;/li&gt;
 
-&lt;p&gt;bbbb This Jekyll introduction will outline specifically what Jekyll is and why you would want to use it. Directly following the intro&lt;/p&gt;</description>
-                <link>http://doin.github.io/lessons/2013/01/01/test</link>
-                <guid>http://doin.github.io/lessons/2013/01/01/test</guid>
-                <pubDate>2013-01-01T00:00:00+08:00</pubDate>
+&lt;li&gt;&lt;a href='http://10.12.31.132/test/g1g/index.html'&gt;淘书伴&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id='flash'&gt;FLASH&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href='http://10.12.31.132/test/dsn/bin-release/ThPicWall.html'&gt;书墙&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='http://10.12.31.132/test/txtplayer/bin-release/TxtRead1.html'&gt;TXT阅读器&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='http://shuzi.taobao.com/play/itemPlay.htm?spm=0.0.0.87.1BsE6j&amp;amp;id=15853074193'&gt;线上播放器&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='http://shuzi.taobao.com/act.htm?spm=0.0.0.29.9aZUfK&amp;amp;id=prappdl9'&gt;PC_AIR播放器&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='http://10.12.31.132/test/haibao_demo/test1.html'&gt;桌面上的照片&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id='web'&gt;WEB&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href='http://www.taobao.com/go/act//video_th_ass.php'&gt;视频活动专题&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='http://10.12.31.132/test/afabric/versoin_alpha/css_mask_v201207181.html'&gt;定制DEMO&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='http://10.12.31.132/test/afabric/demo.htm'&gt;定制DEMO_old&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id='id23'&gt;多终端&lt;/h3&gt;</description>
+                <link>http://doin.github.io/project/2012/12/13/%E8%B5%84%E6%96%99</link>
+                <guid>http://doin.github.io/project/2012/12/13/资料</guid>
+                <pubDate>2012-12-13T00:00:00+08:00</pubDate>
         </item>
 
         <item>
                 <title>原始社会</title>
                 <description>&lt;h1 id='_'&gt;原始社会 &lt;code&gt;11 Dec 2012&lt;/code&gt;&lt;/h1&gt;
 
-&lt;h3 id='id3'&gt;需求描述&lt;/h3&gt;
+&lt;h3 id='id17'&gt;需求描述&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;* 解决朋友之间资源共享,资源利用最大化.
 * 以朋友这间物物交换的信任为入口,最后实现同城的SNS化交易.&lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id='id4'&gt;功能模块&lt;/h3&gt;
+&lt;h3 id='id18'&gt;功能模块&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;* LBS查看身边朋友闲置物品.
 * 发布物品/需求给朋友,查看朋友的物品/需求.
 * 后期模块(朋友圈子).&lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id='id5'&gt;项目成员&lt;/h3&gt;
+&lt;h3 id='id19'&gt;项目成员&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;韩升,马卿,洞灵&lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id='id6'&gt;项目时间&lt;/h3&gt;
+&lt;h3 id='id20'&gt;项目时间&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt; 12月10日启动.
  .12月底截止.&lt;/code&gt;&lt;/pre&gt;
@@ -106,7 +128,29 @@ Activated by:    doin0719@gmail.com � you&lt;/code&gt;&lt;/pre&gt;
 
         <item>
                 <title>定制GIF</title>
-                <description>&lt;h1 id='gif_'&gt;定制GIF &lt;code&gt;18 Oct 2012&lt;/code&gt;&lt;/h1&gt;</description>
+                <description>&lt;h1 id='gif_'&gt;定制GIF &lt;code&gt;18 Oct 2012&lt;/code&gt;&lt;/h1&gt;
+
+&lt;h2 id='gif_style_'&gt;定制GIF骑马舞_江南style_&lt;/h2&gt;
+
+&lt;h3 id='_1__2__3__4'&gt;功能描述: 1.选择模板动画 -&amp;gt; 2.上传头像调整 -&amp;gt; 3.生成预览动画 -&amp;gt; 4.恶搞分享&lt;/h3&gt;
+
+&lt;p&gt;1. 骑马舞 回头状等~ 2. 调整头像大小,角度等~ 3. 在FLASH里生成动画状态时实预览 4. 分享到新浪,腾讯等各流行网站 5. 工具水印&lt;/p&gt;
+
+&lt;h3 id='id15'&gt;产品价值&lt;/h3&gt;
+
+&lt;p&gt;1. 紧跟潮流软件使用用户数量 2. 广告价值 3. 主线跑通,以后可以直接成为流行的生产线,快速对市场做出反映.&lt;/p&gt;
+
+&lt;h3 id='_1_2_3'&gt;投入: 1.后台 2.动画设计 3.前台&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;后台根据前台输出,生成GIF,存储. 2. 设计各种模板动画,以及界面. 3. 完成用户上传调整后输出到后台.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id='id16'&gt;问题&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;GIF生成方式&lt;/li&gt;
+&lt;/ol&gt;</description>
                 <link>http://doin.github.io/project/2012/10/18/%E5%AE%9A%E5%88%B6%E6%B1%9F%E5%8D%97style%E7%9A%84GIF</link>
                 <guid>http://doin.github.io/project/2012/10/18/定制江南style的GIF</guid>
                 <pubDate>2012-10-18T00:00:00+08:00</pubDate>
@@ -138,7 +182,7 @@ Activated by:    doin0719@gmail.com � you&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;我从这里开始&lt;a href='http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html'&gt;github Pages和JekyII入门&lt;/a&gt;&lt;br /&gt;很多JekyII的网站，直接下源码学习&lt;a href='https://github.com/mojombo/jekyll/wiki/Sites'&gt;传送门&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id='id1'&gt;一些技巧&lt;/h2&gt;
+&lt;h2 id='id13'&gt;一些技巧&lt;/h2&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;页内跳转&lt;/p&gt;
@@ -170,7 +214,7 @@ http://doin.github.com/#jekyll-and-github&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;使用&lt;a href='http://www.disqus.com/'&gt;disqus&lt;/a&gt;构建评论&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id='id2'&gt;高亮代码&lt;/h2&gt;
+&lt;h2 id='id14'&gt;高亮代码&lt;/h2&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;我把xieyu.github.com上的pygments样式替换了syntax里的默认样式&lt;code&gt;super+shift+L&lt;/code&gt;&lt;br /&gt;扒了pre，code样式文件&lt;br /&gt;用法上的不一样从&lt;/p&gt;
@@ -198,16 +242,6 @@ codeing~
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
                 <link>http://doin.github.io/2012/08/25/github%E7%8E%A9BLOG</link>
                 <guid>http://doin.github.io/2012/08/25/github玩BLOG</guid>
-                <pubDate>2012-08-25T00:00:00+08:00</pubDate>
-        </item>
-
-        <item>
-                <title>Github玩blog</title>
-                <description>&lt;p&gt;aaaa&lt;/p&gt;
-
-&lt;p&gt;bbbb This Jekyll introduction will outline specifically what Jekyll is and why you would want to use it. Directly following the intro&lt;/p&gt;</description>
-                <link>http://doin.github.io/lessons/2012/08/25/github%E7%8E%A9BLOG</link>
-                <guid>http://doin.github.io/lessons/2012/08/25/github玩BLOG</guid>
                 <pubDate>2012-08-25T00:00:00+08:00</pubDate>
         </item>
 
