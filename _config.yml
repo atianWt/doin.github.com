@@ -10,7 +10,7 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : Doin's Blog
-tagline: ~ ¼á³Ö ~
+tagline: ~ åšæŒ ~
 author :
   name : Doin
   email : doin0719@qq.com
@@ -73,6 +73,7 @@ JB :
   archive_path: /archive.html
   categories_path : /categories.html
   tags_path : /tags.html
+  about_path : /about.html
   atom_path : /atom.xml
   rss_path : /rss.xml
 

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>Jekyll Bootstrap</title>
- <link href="http://username.github.io/" rel="self"/>
- <link href="http://username.github.io"/>
- <updated>2013-06-03T17:31:34+08:00</updated>
- <id>http://username.github.io</id>
+ <title>Doin's Blog</title>
+ <link href="http://doin.github.io/" rel="self"/>
+ <link href="http://doin.github.io"/>
+ <updated>2013-06-04T13:53:19+08:00</updated>
+ <id>http://doin.github.io</id>
  <author>
-   <name>Name Lastname</name>
-   <email>blah@email.test</email>
+   <name>Doin</name>
+   <email>doin0719@qq.com</email>
  </author>
 
  
  <entry>
    <title>Tets1</title>
-   <link href="http://username.github.io/lessons/2013/01/02/tets1"/>
+   <link href="http://doin.github.io/lessons/2013/01/02/tets1"/>
    <updated>2013-01-02T00:00:00+08:00</updated>
-   <id>http://username.github.io/lessons/2013/01/02/tets1</id>
+   <id>http://doin.github.io/lessons/2013/01/02/tets1</id>
    <content type="html">&lt;p&gt;aaaa&lt;/p&gt;
 
 &lt;p&gt;bbbb This Jekyll introduction will outline specifically what Jekyll is and why you would want to use it. Directly following the intro&lt;/p&gt;</content>
@@ -24,9 +24,9 @@
  
  <entry>
    <title>Test</title>
-   <link href="http://username.github.io/lessons/2013/01/01/test"/>
+   <link href="http://doin.github.io/lessons/2013/01/01/test"/>
    <updated>2013-01-01T00:00:00+08:00</updated>
-   <id>http://username.github.io/lessons/2013/01/01/test</id>
+   <id>http://doin.github.io/lessons/2013/01/01/test</id>
    <content type="html">&lt;p&gt;aaaa&lt;/p&gt;
 
 &lt;p&gt;bbbb This Jekyll introduction will outline specifically what Jekyll is and why you would want to use it. Directly following the intro&lt;/p&gt;</content>
@@ -34,9 +34,9 @@
  
  <entry>
    <title>Jekyll Introduction</title>
-   <link href="http://username.github.io/lessons/2011/12/29/jekyll-introduction"/>
+   <link href="http://doin.github.io/lessons/2011/12/29/jekyll-introduction"/>
    <updated>2011-12-29T00:00:00+08:00</updated>
-   <id>http://username.github.io/lessons/2011/12/29/jekyll-introduction</id>
+   <id>http://doin.github.io/lessons/2011/12/29/jekyll-introduction</id>
    <content type="html">&lt;p&gt;This Jekyll introduction will outline specifically what Jekyll is and why you would want to use it. Directly following the intro we&amp;#8217;ll learn exactly &lt;em&gt;how&lt;/em&gt; Jekyll does what it does.&lt;/p&gt;
 
 &lt;h2 id='overview'&gt;Overview&lt;/h2&gt;
