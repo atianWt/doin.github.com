@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hello World!
-tagline: Supporting doin11234
+tagline: Supporting Doin
 ---
 {% include JB/setup %}
 Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
