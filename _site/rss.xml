@@ -5,8 +5,8 @@
         <description>Doin's Blog - Doin</description>
         <link>http://doin.github.io</link>
         <link>http://doin.github.io</link>
-        <lastBuildDate>2013-06-04T13:53:19+08:00</lastBuildDate>
-        <pubDate>2013-06-04T13:53:19+08:00</pubDate>
+        <lastBuildDate>2013-06-04T14:19:00+08:00</lastBuildDate>
+        <pubDate>2013-06-04T14:19:00+08:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -28,6 +28,187 @@
                 <link>http://doin.github.io/lessons/2013/01/01/test</link>
                 <guid>http://doin.github.io/lessons/2013/01/01/test</guid>
                 <pubDate>2013-01-01T00:00:00+08:00</pubDate>
+        </item>
+
+        <item>
+                <title>原始社会</title>
+                <description>&lt;h1 id='_'&gt;原始社会 &lt;code&gt;11 Dec 2012&lt;/code&gt;&lt;/h1&gt;
+
+&lt;h3 id='id3'&gt;需求描述&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;* 解决朋友之间资源共享,资源利用最大化.
+* 以朋友这间物物交换的信任为入口,最后实现同城的SNS化交易.&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id='id4'&gt;功能模块&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;* LBS查看身边朋友闲置物品.
+* 发布物品/需求给朋友,查看朋友的物品/需求.
+* 后期模块(朋友圈子).&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id='id5'&gt;项目成员&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;韩升,马卿,洞灵&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id='id6'&gt;项目时间&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt; 12月10日启动.
+ .12月底截止.&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id='build_20121210'&gt;build 2012-12-10&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;1. 项目讨论,达成共识.
+2. 项目交互图讨论设计完成80%.
+3. 本周项目分工
+    * 马卿: 数据库建表以及数据接口.
+    * 韩升: LBS地图DEMO实现.
+    * 洞灵: 根据交互图,设计界面.(界面以单色块,清爽为主.)
+    * 时间紧,任务多,还是以坚持为主吧.GO~&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Google Maps API key 申请&lt;/strong&gt; &lt;br /&gt; 1. 使用Google帐号登入APIs Console （https://code.google.com/apis/console）功能权限打开,点API access可以看到了.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Key for browser apps (with referers)
+API key:    
+AIzaSyDInY-OQJ8RuIA8vcY9ie8TtYvUJfBUQkM
+Referers:   
+http://127.0.0.1
+Activated on:   Dec 10, 2012 9:55 PM
+Activated by:    doin0719@gmail.com � you
+Generate new key...
+Edit allowed referers...
+Delete key...
+Key for browser apps (with referers)
+API key:    
+AIzaSyCaNEZrKHqcY0cWV6RkBYbF_8ipj63RiRw
+Referers:   
+Any referer allowed
+Activated on:   Dec 10, 2012 9:52 PM
+Activated by:    doin0719@gmail.com � you&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;参考网站: &lt;br /&gt;&lt;a href='http://www.godeyes.cn/html/2012/02/23/google_earth_12863.html'&gt;Google Maps API 申请方式变更&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;下载 Google Maps API for Flash SDK&lt;/strong&gt; &lt;br /&gt;参考网站: &lt;br /&gt;&lt;a href='http://www.ibm.com/developerworks/cn/web/wa-lo-flexgoogle/'&gt;用 Flex 开发 Google Map 应用程序&lt;/a&gt; &lt;br /&gt;&lt;a href='http://www.cnblogs.com/zhych/archive/2009/06/25/1511281.html'&gt;Google Maps API 中的标注编程&lt;/a&gt; &lt;br /&gt;&lt;a href='https://developers.google.com/maps/documentation/flash/intro?hl=zh-cn'&gt;Google Maps API（Flash 版）开发人员指南&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id='build_20121213'&gt;build 2012-12-13&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;1. 决定使用百度地图 FLASH SDK
+2. 使用FLASH+HTML的形式开发,一方面加大灵活性,一方面减轻我这边的压力.  
+3. 数据库表建立. 
+4. HTML和FLASH间的通信使用开源桥接&amp;quot;StageWebViewBridge&amp;quot;   
+    * 使用loadUrl();   
+    * 加入StageWebViewBridge.js   
+    * 发布情况下才可以调用成功.   &lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;参考网站&lt;a href='http://code.google.com/p/stagewebviewbridge/source/browse/trunk/StageWebViewBridge/?r=120'&gt;StageWEBViewBridge&lt;/a&gt;&lt;/p&gt;</description>
+                <link>http://doin.github.io/project/2012/12/11/%E5%8E%9F%E5%A7%8B%E7%A4%BE%E4%BC%9A</link>
+                <guid>http://doin.github.io/project/2012/12/11/原始社会</guid>
+                <pubDate>2012-12-11T00:00:00+08:00</pubDate>
+        </item>
+
+        <item>
+                <title>定制GIF</title>
+                <description>&lt;h1 id='gif_'&gt;定制GIF &lt;code&gt;18 Oct 2012&lt;/code&gt;&lt;/h1&gt;</description>
+                <link>http://doin.github.io/project/2012/10/18/%E5%AE%9A%E5%88%B6%E6%B1%9F%E5%8D%97style%E7%9A%84GIF</link>
+                <guid>http://doin.github.io/project/2012/10/18/定制江南style的GIF</guid>
+                <pubDate>2012-10-18T00:00:00+08:00</pubDate>
+        </item>
+
+        <item>
+                <title>cocosd_html5学习</title>
+                <description>&lt;h1 id='cocosd_html5_'&gt;cocosd_html5学习 &lt;code&gt;15 Oct 2012&lt;/code&gt;&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href='https://github.com/cocos2d/cocos2d-html5'&gt;coco2d-html5代码&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href='http://article.ityran.com/archives/1387'&gt;参考站1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+                <link>http://doin.github.io/%E5%85%B6%E5%AE%83/2012/10/15/coco2d_html5</link>
+                <guid>http://doin.github.io/%E5%85%B6%E5%AE%83/2012/10/15/coco2d_html5</guid>
+                <pubDate>2012-10-15T00:00:00+08:00</pubDate>
+        </item>
+
+        <item>
+                <title>github.jeckII.markdown玩博客</title>
+                <description>&lt;h1 id='githubjeckiimarkdown_'&gt;github.jeckII.markdown玩博客 &lt;code&gt;25 Aug 2012&lt;/code&gt;&lt;/h1&gt;
+
+&lt;h2 id='blog'&gt;安装配置BLOG&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;我从这里开始&lt;a href='http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html'&gt;github Pages和JekyII入门&lt;/a&gt;&lt;br /&gt;很多JekyII的网站，直接下源码学习&lt;a href='https://github.com/mojombo/jekyll/wiki/Sites'&gt;传送门&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id='id1'&gt;一些技巧&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;页内跳转&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;!-- 为了方便页内快速跳转，可建立空内容的锚点。比如 --&amp;gt;
+&amp;lt;span id=&amp;quot;jekyll-and-github&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;
+&amp;lt;!-- 使用　--&amp;gt;
+[回去看看](#jekyll-and-github)
+http://doin.github.com/#jekyll-and-github&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;使用全局路径定义&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;在&lt;code&gt;_config.yml&lt;/code&gt;中定义一个形如&lt;code&gt;img_url: http://doin.github.com/images&lt;/code&gt;的变量&lt;br /&gt;（使用）&lt;code&gt;![git代码库结构](/2012-06-27-git-transport.png)&lt;/code&gt;&lt;br /&gt;在&lt;code&gt;_config.yml&lt;/code&gt;中定义一个形如&lt;code&gt;css_url: http://doin.github.com/css&lt;/code&gt;的变量&lt;br /&gt;（使用）&lt;code&gt;&amp;lt;style src= /&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;定义代码模板&lt;code&gt;_includes/JB&lt;/code&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;把一些重复的模块/JS自定义在&lt;code&gt;_includes文件夹下&lt;/code&gt; (使用)&lt;code&gt;{\% include JB/disqus_comments \%}&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;使用&lt;a href='http://www.disqus.com/'&gt;disqus&lt;/a&gt;构建评论&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id='id2'&gt;高亮代码&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;我把xieyu.github.com上的pygments样式替换了syntax里的默认样式&lt;code&gt;super+shift+L&lt;/code&gt;&lt;br /&gt;扒了pre，code样式文件&lt;br /&gt;用法上的不一样从&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt;```php
+codeing	~
+```&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;现在不用安装，就是稍麻烦点&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt;{|% highlight php %|}
+codeing~
+{|% highlight %|}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;测试高亮&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='php'&gt;&lt;span class='cp'&gt;&amp;lt;?php&lt;/span&gt;
+&lt;span class='c1'&gt;//asdadasdasd&lt;/span&gt;
+&lt;span class='k'&gt;echo&lt;/span&gt; &lt;span class='s2'&gt;&amp;quot;hello&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
+&lt;span class='cp'&gt;?&amp;gt;&lt;/span&gt;&lt;span class='x' /&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+                <link>http://doin.github.io/2012/08/25/github%E7%8E%A9BLOG</link>
+                <guid>http://doin.github.io/2012/08/25/github玩BLOG</guid>
+                <pubDate>2012-08-25T00:00:00+08:00</pubDate>
+        </item>
+
+        <item>
+                <title>Github玩blog</title>
+                <description>&lt;p&gt;aaaa&lt;/p&gt;
+
+&lt;p&gt;bbbb This Jekyll introduction will outline specifically what Jekyll is and why you would want to use it. Directly following the intro&lt;/p&gt;</description>
+                <link>http://doin.github.io/lessons/2012/08/25/github%E7%8E%A9BLOG</link>
+                <guid>http://doin.github.io/lessons/2012/08/25/github玩BLOG</guid>
+                <pubDate>2012-08-25T00:00:00+08:00</pubDate>
         </item>
 
         <item>
