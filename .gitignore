@@ -1,4 +1,5 @@
 _book
+_book/*
 .idea/*
 .idea/workspace.xml
 .Ulysses-favorites.plist
