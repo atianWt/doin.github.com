@@ -1,0 +1,8 @@
+_book
+.idea/*
+.idea/workspace.xml
+.Ulysses-favorites.plist
+**/.idea/
+**/.idea/*
+.DS_Store
+build/*
