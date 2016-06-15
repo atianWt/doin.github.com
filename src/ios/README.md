@@ -1,0 +1,46 @@
+# ios技术
+---
+# 环境搭建
+## 1.安装开发工具
+### maven配置
+1. 发送邮件给alipay-scm@list.alibaba-inc.com 并抄送给主管，申请maven帐号
+2.  打开 http://mvn.dev.alipay.net:8081/artifactory/index.html#welcome
+3.  点击右上角 login，输入你的帐号，密码为默认密码 111
+4.  通过Security-\>Change Password 修改密码，如图： ![][image-1]
+5.  在Mac 电脑上新建文件 /.ios_deploy.conf 并写入USER_PASS=帐号:密码
+
+### aptkit配置
+1. aptkit 最初是为了满足钱包库拆分需求而开发的一款基于 cocoapods 的封装套件，该套件在依赖 cocoapods 进行底层包的依赖管理，在此基础上还进行了一些功能封装，并提供了丰富的接口
+2. 打开 [ios.alipay.net ][1]
+3. 复制并运行 sh \<(curl -s http://code.taobao.org/svn/aptkit/trunk/install.sh)
+4. 安装过程中可能需要你输入自己的本机密码。关于 aptkit 的具体使用方式可以参考文档 [http://gitlab.alibaba-inc.com/alipay-ios-client/aptkit/wikis/aptkit-init][2]
+
+## 2.拉取代码
+### 申请代码权限
+1. 打开[http://cp.alipay-inc.com/cpportal/index/cpRepoPermission.htm][3]
+2. 申请ios-iphone-personalcredit-git 库的读写权限，审批通过后就会开通
+3. 芝麻认证客户端代码权限，需要先在左上角将项目切换到 **芝麻认证客户端**，然后再按照1、2步操作申请![][image-2]
+
+### 拉取代码
+1. 打开[http://cp.alipay-inc.com/cpportal/index.htm][4] 找到目标项目![][image-3]
+2.  点击分支列表，找到当前分支名称，如果没有拉取过代码，先拉取ios-iphone-personalcredit-git库到本地，然后切换到该分支，如果拉取过代码，直接切换分支 ![][image-4]
+
+## 3.本地开发
+以钱包内工程为例，拉取完代码以后进入Themis-iOS目录，文件Makefile供aptkit使用，podfile和podspec文件是cocoapods的配置文件，具体功能可以去cocoapods官网了解 [https://cocoapods.org/][5] ![][image-5]
+### make
+检出代码以后，由于工程的依赖没有下载下来，代码在本地还是不能运行的。我们在terminal里面定位到代码目录，然后运行make命令，aptkit的脚本会下载工程的cocoapods依赖，生成xcworkspace。make完成以后，直接在xcode打开xcworkspace，就可以调试、运行代码了。
+![][image-6]
+上面是xcode打开后的工程结构，Themis-iOS是芝麻信用在钱包内的工程，Pods放的是钱包依赖的工程包，Portal是钱包的主工程，运行时请选择该工程的Portal target。
+
+[1]:	http://ios.alipay.net
+[2]:	http://gitlab.alibaba-inc.com/alipay-ios-client/aptkit/wikis/aptkit-init
+[3]:	http://cp.alipay-inc.com/cpportal/index/cpRepoPermission.htm
+[4]:	http://cp.alipay-inc.com/cpportal/index.htm
+[5]:	https://cocoapods.org/
+
+[image-1]:	https://os.alipayobjects.com/rmsportal/mqGjLONFmXUDKWc.png
+[image-2]:	https://os.alipayobjects.com/rmsportal/wDRgSNvvZcSdoRb.png
+[image-3]:	https://os.alipayobjects.com/rmsportal/cQKwGhcopbLIhCZ.png
+[image-4]:	https://os.alipayobjects.com/rmsportal/IYQVJKKkXYduGew.png
+[image-5]:	https://os.alipayobjects.com/rmsportal/yOIjDdpnIfBJxWB.png
+[image-6]:	https://os.alipayobjects.com/rmsportal/IlVlntcsEveubeJ.png

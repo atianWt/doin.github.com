@@ -1,0 +1,77 @@
+# 芝麻信用个人pc网站
+---
+# 产品功能和介绍
+
+## 简介 
+芝麻信用个人PC端网站是芝麻信用的门户网站，通过该网站可以了解芝麻信用公司的产品和服务相关信息。目前可通过该网站注册登录、查看自己的芝麻分、查看芝麻信用的生活实用场景以及关于芝麻信用和帮助中心。地址：[i.zmxy.com.cn](i.zmxy.com.cn)。
+
+## 产品功能介绍
+### 1 非支付宝用户注册
+#### 1.1 芝麻信用首页
+![芝麻信用首页](https://os.alipayobjects.com/rmsportal/NUsnULBNhHdzOdW.png)
+
+#### 1.2 注册
+![注册](https://os.alipayobjects.com/rmsportal/LSXhRcGuERNyWIq.png)
+
+#### 1.3 注册流程
+##### 1.3.1 核身流程
+###### 1.3.1.1 公安一所核身介绍
+![公安一所核身介绍](https://os.alipayobjects.com/rmsportal/KmOySLhvMqyfdHx.png)
+###### 1.3.1.2 安装控件
+![安装控件](https://os.alipayobjects.com/rmsportal/TgnZIamSTRvZtcP.png)
+###### 1.3.1.3 开始验证
+![开始验证](https://os.alipayobjects.com/rmsportal/BWIHJbVdazkIZRh.png)
+###### 1.3.1.4 输入密码
+![输入密码](https://os.alipayobjects.com/rmsportal/EVZPorPtpxjBYeM.png)
+###### 1.3.1.5 人脸认证
+![人脸认证](https://os.alipayobjects.com/rmsportal/FvyPbKQEmBpwRkg.png)
+
+##### 1.3.2 手机验证
+![手机验证](https://os.alipayobjects.com/rmsportal/xvsdGZsHxhAwvab.png)
+
+##### 1.3.1 设置密码
+![设置密码](https://os.alipayobjects.com/rmsportal/UPZVNICdsMfIAut.png)
+
+##### 1.3.1 注册成功
+![注册成功](https://os.alipayobjects.com/rmsportal/WqjlUQHEfycmtKr.png)
+
+### 2 支付宝用户注册
+#### 2.1 注册
+![注册](https://os.alipayobjects.com/rmsportal/LSXhRcGuERNyWIq.png)
+#### 2.2 支付宝扫码引导
+![支付宝扫码引导](https://os.alipayobjects.com/rmsportal/KLIlKsZGuiScHSW.png)
+
+### 3 已注册用户登录
+#### 2.1 登录
+![登录](https://os.alipayobjects.com/rmsportal/BQSrfyWlLLvdsDx.png)
+#### 2.2 登录成功
+用户登录成功后会显示个人中心页面，顶部小黑条增加登录状态。
+
+### 4 忘记密码
+#### 4.1 点击登录框下的“忘记密码”
+![忘记密码](https://os.alipayobjects.com/rmsportal/RAOGjRjGeieHOGb.png)
+#### 4.2 进入忘记密码流程
+##### 4.2.1 输入身份证号和姓名
+![输入身份证号和姓名](https://os.alipayobjects.com/rmsportal/WYuiuXCeNJDJUJc.png)
+##### 4.2.2 核身流程
+该核身流程与1.3.1中的核身流程一致，请参考1.3.1。
+##### 4.2.3 重置密码
+经过4.2.2中的核身流程，页面进入重置密码页面。
+##### 4.2.4 重置密码成功
+重置密码成功后，页面进入重置密码成功页面。
+
+### 5 信用生活
+#### 5.1 信用生活
+![信用生活](https://os.alipayobjects.com/rmsportal/hjccrOEeyRZrTHF.png)
+#### 5.2 信用生活场景
+![信用生活场景](https://os.alipayobjects.com/rmsportal/GGGrasnDoBhfCVU.png)
+#### 5.3 商户介绍
+![商户介绍](https://os.alipayobjects.com/rmsportal/GYiiYiuxYfFwelQ.png)
+
+### 6 关于我们
+![关于我们](https://os.alipayobjects.com/rmsportal/tNCZCYajdOJJQgh.png)
+
+### 7 帮助中心
+![帮助中心](https://os.alipayobjects.com/rmsportal/qjSaKlMcbDULmHl.png)
+
+
