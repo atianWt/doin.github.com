@@ -9,3 +9,5 @@ _book/*
 build/*
 dist
 dist/*
+node_modules
+node_modules/*
