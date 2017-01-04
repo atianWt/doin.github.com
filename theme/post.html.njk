@@ -1,0 +1,43 @@
+{% extends "layouts/layout.html.njk" %}
+
+{% block content %}
+  <div class="my-sidebar">
+    {% set topMenu = navItems[navKey] %}
+    <h2 class="my-nav-title">{{topMenu.meta.value.navTitle}}</h2>
+    <ul class="list-group">
+      {% for menuKey in topMenu.menuList %}
+        {% if topMenu[menuKey].meta %}
+          <li class="list-group-item">
+          <label class="my-nav-group">{{ topMenu[menuKey].meta.title }}</label>
+          <ul class="list-group">
+        {% endif %}
+        {% for menu in topMenu[menuKey].list %}
+          <li
+              class="list-group-item {% if data.path.replace('.md', '') === menu.path.replace('.html', '') %} active {% endif %}"
+              data-path={{ data.path }}
+              menu-path={{ menu.path }}
+          >
+            <a href="{{root}}{{menu.path}}">
+              {{menu.data.title}}
+              {% if menu.data.isNew %}
+                <img src="https://zos.alipayobjects.com/rmsportal/dxLDHoPdRugiboUrnWGd.gif" />
+              {% endif %}
+            </a>
+          </li>
+        {% endfor %}
+        {% if topMenu[menuKey].meta %}
+          </ul>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+<div class="content-wrap">
+  {{ data.guideList }}
+  <div class="my-content {{ data.pageClass }}" id="J_myContent">{{ data.body }}</div>
+</div>
+  <button aria-label="边栏切换" class="sidebar-toggle visible-xs-block js-sidebar-toggle">
+    <span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>
+  </button>
+  <div class="dimmer" role="presentation"></div>
+{% endblock %}

@@ -1,0 +1,8 @@
+before_deploy:
+  - tnpm i tnpm@release-4
+  - ./node_modules/.bin/tnpm i
+  - ./node_modules/.bin/tnpm run build
+options:
+  branch: 'prod'
+  dist: './dist'
+cname: 'ssdata.alibaba.net'

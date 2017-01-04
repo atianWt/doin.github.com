@@ -1,0 +1,32 @@
+<nav class="navbar navbar-default my-main-nav" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <h1 class="navbar-brand">
+        <a href="{{root}}">
+          <span class="sr-only"></span>小小学园
+        </a>
+      </h1>
+    </div>
+
+    <button aria-label="菜单切换" class="navbar-toggle visible-xs-block js-toggle">
+      <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+    </button>
+
+    <div class="navbar-collapse">
+      {% if not isHome %}
+        {% include "layouts/search.html.njk" %}
+      {% endif %}
+      <ul class="nav navbar-nav navbar-right">
+        {% for key in navKeys %}
+          {% if navItems[key].meta %}
+            <li {% if navKey === navItems[key].meta.key %} class="active" {% endif %}>
+              <a href="{{root}}{{navItems[key].meta.value.path}}">{{navItems[key].meta.value.title}}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+        <li>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

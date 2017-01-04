@@ -1,0 +1,93 @@
+// 非首页头部搜索框
+@import "variables";
+
+.search-bar {
+  position: relative;
+  padding-top: 10px;
+  display: none;
+
+  .search-box {
+    line-height: 1.5;
+    width: 200px;
+
+    // http://stackoverflow.com/questions/2989263/disable-auto-zoom-in-input-text-tag-safari-on-iphone
+    // IOS will still zoom, unless you use 16px on the input without the focus.
+    @media (max-width: @screen-xs-max) {
+      font-size: 16px;
+    }
+  }
+
+  .search-list {
+    position: absolute;
+    width: 280px;
+    padding: 0;
+    max-height: 250px;
+    overflow-y: auto;
+    display: none;
+    z-index: 1;
+    line-height: 1;
+    background: #fff;
+    border: 1px solid #dedede;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+    a {
+      display: block;
+      color: #444;
+      text-decoration: none;
+      padding: 8px 10px;
+    }
+
+    a.hide {
+      display: none;
+    }
+
+    a.active,
+    a:hover {
+      background-color: #e7f4fd;
+    }
+  }
+
+  &.active {
+    .search-list {
+      display: block;
+    }
+  }
+
+  @media (max-width: @screen-xs-max) {
+    width: 100%;
+
+    .search-box {
+      display: block;
+      width: 100%;
+    }
+
+    .search-list {
+      width: 100%;
+    }
+  }
+
+  @media (min-width: @screen-sm-min) {
+    padding-top: 24px;
+    float: left;
+  }
+
+  // 首页搜索框
+  .home-search & {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+    float: none;
+    width: 100%;
+    max-width: @search-max-width;
+
+    .search-box {
+      width: 100%;
+    }
+
+    .search-list {
+      width: 100%;
+      max-width: @search-max-width;
+      text-align: left;
+    }
+  }
+}
