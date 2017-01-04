@@ -1,46 +1,76 @@
-# Jekyll-Bootstrap
+## 更新原则
+- 默认提交到master分支, 统一MR到prod.
+- prod分支为site自动部署分支
 
-The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
+## 本地调试
+- `tnpm run local`
+- `tnpm start` 直接打开浏览器本地调试
 
-## Usage
+## 构建说明
 
-For all usage and documentation please see: <http://jekyllbootstrap.com>
-
-## Version
-
-0.3.0 - stable and versioned using [semantic versioning](http://semver.org/).
-
-**NOTE:** 0.3.0 introduces a new theme which is not backwards compatible in the sense it won't _look_ like the old version.
-However, the actual API has not changed at all.
-You might want to run 0.3.0 in a branch to make sure you are ok with the theme design changes.
-
-## Contributing 
-
-This repository tracks 2 projects:
-
-- **Jekyll-Bootstrap Framework.**  
-  The framework for which users should clone and build their blog on top of is available in the master branch.
-  
-  To contribute to the framework please make sure to checkout your branch based on `jb-development`!!
-  This is very important as it allows me to accept your pull request without having to publish a public version release.
-  
-  Small, atomic Features, bugs, etc.   
-  Use the `jb-development` branch but note it will likely change fast as pull requests are accepted.   
-  Please rebase as often as possible when working.   
-  Work on small, atomic features/bugs to avoid upstream commits affecting/breaking your development work.
-  
-  For Big Features or major API extensions/edits:   
-  This is the one case where I'll accept pull-requests based off the master branch.
-  This allows you to work in isolation but it means I'll have to manually merge your work into the next public release.
-  Translation : it might take a bit longer so please be patient! (but sincerely thank you).
- 
-- **Jekyll-Bootstrap Documentation Website.**    
-  The documentation website at <http://jekyllbootstrap.com> is maintained in the gh-pages branch.
-  Please fork and contribute documentation additions to this branch only.
-
-The master and gh-pages branch do not share the same ancestry. Please treat them as completely separate git repositories!
+- 根据部署情况，改变**gulpfile.js**文件里面的**root**变量，绝对路径，不要域名,一定要以**/**结尾，这么做是为了减少路劲计算的工作
+- `tnpm i`
+- `tnpm run build`
 
 
-## License
+## 文档生成说明
 
-[MIT](http://opensource.org/licenses/MIT)
+- 最多支持二级目录，以**docs**的下一层开始计算
+- **docs**目录下面是一级子目录
+- 一级子目录必须包含**meta.md**，该文件包含目录相关信息
+- 二级子目录如果需要独立为一组菜单，必须包含**meta.md**
+- **meta.md**参考如下
+  ````
+  ---
+  title: Tests/posts
+  order: -1
+  ---
+  这里是描述，暂时不提取
+  ````
+
+
+## markdown 撰写文档参考
+
+### 标题（`#`、`##`）使用规范:
+
+- 按顺序使用，不要跳级使用；
+- 一级标题 `#` 只出现一次，用于文档的总标题；  
+- 不要在标题前面加上 `1.`、`一.` 之类的序号，序号会通过 CSS 添加。
+
+````
+---
+title: Hello world!
+publishDate: 2016-05-05
+tags:
+  - test
+desc: The first article which is posted by BiSheng.
+
+---
+
+Hello world!
+
+{{{
+这里的内容是内部才可以看到的
+}}}
+
+```js
+(function () {
+  console.log('Hello world!');
+})();
+```
+
+```demo/demoFileName1/会生成一个独立的事例文件
+<h1>hello world!</h1>
+<script>
+(function () {
+  console.log('Hello world!');
+})();
+</script>
+```
+
+```demo/demoFileName2/会生成另外一个独立的事例文件
+(function () {
+  console.log('Hello world!');
+})();
+```
+````
