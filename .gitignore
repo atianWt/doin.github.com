@@ -7,7 +7,5 @@ _book/*
 **/.idea/*
 .DS_Store
 build/*
-dist
-dist/*
 node_modules
 node_modules/*
