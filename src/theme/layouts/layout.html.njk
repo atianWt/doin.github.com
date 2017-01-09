@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-cn"{% if isHome %} class="home"{% endif %}>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>小小学园</title>
+  <link rel="icon" href="https://i.alipayobjects.com/common/favicon/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="https://i.alipayobjects.com/common/favicon/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="{{ root }}static/global.css{{ timefix }}">
+  <link rel="stylesheet" href="https://os.alipayobjects.com/rmsportal/ijMlnBQKFrkzTED.css">
+
+  <!--[if lt IE 9]>
+  <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+{% include "layouts/header.html.njk" %}
+
+<div class="container-fluid main">
+  {% block content %}{% endblock %}
+</div>
+
+<input type="hidden" value="{{ root }}" id="js-root">
+
+<script
+    src="https://os.alipayobjects.com/rmsportal/??fBwppBoXIKidETe.js,zpGDQEkJIvsvKIiMHRdj.js,hKQWxzKJYJLVXfH.js,JIMmGyRgrhqytqElKZRW.js,HPiRBqzDoYVDumq.js"></script>
+<script src="{{ root }}static/app.js{{ timefix }}"></script>
+
+</body>
+</html>

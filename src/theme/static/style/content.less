@@ -1,0 +1,395 @@
+@import "variables";
+
+// 文档内容样式
+.my-content {
+  position: relative;
+  padding: 44px 20px 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+  min-height: 100%;
+  margin-top: 6px;
+
+  @media (max-width: @screen-xs-max) {
+    font-size: 16px;
+  }
+
+  // >= 768px
+  @media (min-width: @screen-sm-min) {
+    margin: 10px 10px 0;
+  }
+
+  // >= 992px
+  @media (min-width: @screen-md-min) {
+    padding: 44px 185px 30px 35px;
+  }
+
+  .my-qa-wrap {
+    position: absolute;
+    left: 15px;
+    top: 8px;
+
+    a {
+      -webkit-transition: color 500ms;
+      transition: color 500ms;
+
+      color: lighten(@lightGray, 10%);
+      margin-right: 4px;
+      cursor: pointer;
+
+      &:hover {
+        color: @brand-primary;
+      }
+    }
+  }
+
+  h1, .h1,
+  h2, .h2,
+  h3, .h3 {
+    margin-top: 1.5em;
+    margin-bottom: 15px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  .h4, .h5, .h6, h4, h5, h6 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  h1 {
+    font-size: 32px;
+    color: #404040;
+  }
+
+  h2 {
+    font-size: 20px;
+    color: #404040;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+
+  li,
+  p {
+    color: #555;
+    line-height: 1.8;
+  }
+
+  p {
+    margin-bottom: 1em;
+  }
+
+  ul,
+  ol {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+    ul,
+    ol {
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+    }
+  }
+
+  li {
+    padding-left: 16px;
+    position: relative;
+  }
+
+  li:before {
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    content: "•";
+    color: @lightGray;
+  }
+
+  blockquote {
+    font-size: 14px;
+  }
+
+  .J_qrcode {
+    margin-top: 15px;
+  }
+
+  // headings counter
+  counter-reset: h2;
+  h2 {
+    counter-reset: h3
+  }
+  h3 {
+    counter-reset: h4
+  }
+  h4 {
+    counter-reset: h5
+  }
+  h5 {
+    counter-reset: h6
+  }
+
+  h2:before {
+    counter-increment: h2;
+    content: counter(h2) ". "
+  }
+  h3:before {
+    counter-increment: h3;
+    content: counter(h2) "." counter(h3) ". "
+  }
+  h4:before {
+    counter-increment: h4;
+    content: counter(h2) "." counter(h3) "." counter(h4) ". "
+  }
+  h5:before {
+    counter-increment: h5;
+    content: counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) ". "
+  }
+  h6:before {
+    counter-increment: h6;
+    content: counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) "." counter(h6) ". "
+  }
+}
+
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin: 15px auto;
+  border-collapse: collapse;
+  font-family: Consolas, Menlo, Courier, monospace;
+  font-size: 12px;
+
+  th {
+    text-align: center !important;
+    background: #efefef;
+    white-space: nowrap;
+    color: #444;
+  }
+
+  td:nth-child(1) {
+    white-space: nowrap;
+  }
+
+  @media (max-width: @screen-xs-max) {
+    .table-responsive & {
+      margin-top: 0;
+    }
+  }
+}
+
+pre.hljs {
+  border: none;
+  padding: 15px;
+  background-color: #fbfbfb;
+  border-radius: 0;
+}
+
+.code-wrap {
+  position: relative;
+}
+
+.my-btn-copy {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 4px 0;
+  width: 40px;
+  border: none;
+  // border: 1px solid #dedede;
+  // border-width: 0 0 1px 1px;
+  border-bottom-left-radius: 2px;
+  background: #eee;
+  font-size: 12px;
+  outline: none;
+  color: #999;
+  line-height: 1;
+
+  &:hover,
+  &:active {
+    background: @ant-primary;
+    color: #fff;
+  }
+
+  @media (max-width: @screen-xs-max) {
+    display: none;
+  }
+}
+
+.my-copy-status {
+  position: absolute;
+  top: -35px;
+  right: 0;
+  z-index: 1000;
+  display: none;
+  line-height: 1;
+  padding: 5px 8px;
+  font-size: 12px;
+  background: @brand-success;
+  color: #fff;
+
+  &:after {
+    content: ' ';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -4px;
+    width: 0;
+    height: 0;
+    border-width: 6px 6px 0 6px;
+    border-style: solid solid none solid;
+    border-color: @brand-success transparent transparent;
+  }
+
+  &.success {
+    display: block;
+    animation: my-copy-status .3s;
+  }
+}
+
+@keyframes my-copy-status {
+  from {
+    opacity: 0.5;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.demo-wrap {
+  position: relative;
+}
+
+.qrcode-handle {
+  position: absolute;
+  top: 4px;
+  right: 5px;
+  text-align: center;
+  z-index: 100;
+
+  @media (max-width: @screen-xs-max) {
+    display: none;
+  }
+
+  .my-btn-copy ~ & {
+    right: 55px;
+  }
+
+  .qrcode-toggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    text-align: right;
+    line-height: 18px;
+    // font-size: 12px;
+    color: #999;
+    cursor: pointer;
+
+    // 触控设备上隐藏二维码
+    .touch & {
+      display: none;
+    }
+  }
+
+  .qrcode-wrap {
+    background-color: #fff;
+    border: 1px solid @borderColor;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 2px 2px 4px @borderColor;
+    display: none;
+    padding: 10px;
+
+    a {
+      cursor: pointer;
+    }
+  }
+
+  .qrcode {
+    margin: 10px 0;
+    height: 256px;
+  }
+
+  &:hover {
+    .qrcode-toggle {
+      color: @brand-primary;
+      visibility: hidden;
+    }
+
+    .qrcode-wrap {
+      display: block;
+    }
+  }
+}
+
+.my-content.tutorial-page img {
+  width: 80%;
+}
+
+// API 演示选项卡
+.tab-control {
+  margin: 1.5em 0;
+
+  .tab-header {
+    position: relative;
+    list-style: none;
+    padding-left: 1em;
+
+    &:after {
+      position: absolute;
+      left: 0;
+      top: 100%;
+      z-index: 8;
+      content: ' ';
+      width: 100%;
+      border-top: 1px solid #dedede;
+      // transform: translateY(-1px);
+    }
+
+    .tab {
+      position: relative;
+      z-index: 10;
+      display: inline-block;
+      border: 1px solid #dedede;
+      border-bottom: none;
+      padding: 4px 15px;
+      cursor: pointer;
+      background: #f8f8f8;
+      border-top-left-radius: 2px;
+      border-top-right-radius: 2px;
+
+      + .tab {
+        margin-left: 10px;
+      }
+
+      &:before {
+        display: none;
+      }
+
+      &.active {
+        padding-top: 5px;
+        background: #fff;
+        color: @brand-primary;
+        transform: translateY(1px);
+      }
+    }
+  }
+
+  .tab-item {
+    display: none;
+
+    &.active {
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,114 @@
+// 文档目录
+
+@import "variables";
+
+// 菜单插入到 .my-content 以后的样式
+.my-toc {
+  position: relative;
+
+  li {
+    &:before {
+      display: none;
+    }
+  }
+}
+
+.directory {
+  list-style: none;
+  padding-left: 20px;
+  margin-left: 0;
+  font-size: 12px;
+
+  @media (max-width: @screen-sm-max) {
+    font-size: 14px;
+    margin-bottom: 2em !important;
+
+    .content-wrap > & {
+      display: none;
+    }
+  }
+
+  @media (min-width: @screen-md-min) {
+    position: fixed;
+    width: 160px;
+    min-height: 100px;
+    right: 35px;
+    top: 105px;
+    z-index: 99;
+  }
+
+  &:before {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 1px;
+    height: 100%;
+    background-color: #ddd;
+    left: 10px;
+
+    .my-toc & {
+      left: 0;
+    }
+  }
+
+  .directory-item {
+    position: relative;
+
+    &.active:after {
+      position: absolute;
+      display: block;
+      content: '';
+      width: 3px;
+      height: 16px;
+      background-color: @brand-primary;
+      left: -11px;
+      top: 50%;
+      margin-top: -8px;
+
+      .my-toc & {
+        left: -1px;
+      }
+    }
+
+    &.active {
+      a {
+        color: #108EE9;
+      }
+    }
+
+    a {
+      display: block;
+      text-decoration: none;
+      padding: 0 0 0 8px;
+      line-height: 2.5;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      color: #11305A;
+    }
+
+    a:hover {
+      color: #108EE9;
+    }
+  }
+
+  // .level2{
+  //   padding-left: @guideListPadding;
+  // }
+
+  // .level3{
+  //   padding-left: @guideListPadding * 2;
+  // }
+
+  // .level4{
+  //   padding-left: @guideListPadding * 3;
+  // }
+
+  // .level5{
+  //   text-indent: @guideListPadding * 3;
+  // }
+
+  // .level6{
+  //   text-indent: @guideListPadding * 3;
+  // }
+}
