@@ -4,7 +4,7 @@ order: 0
 public: true
 ---
 
-# iterm2分屏
+# :rose: iterm2分屏
 
 ```javascript
 ⌘ + d: 垂直分屏，
@@ -23,3 +23,7 @@ shift + ⌘ + s: 保存当前窗口快照。
 
 ⌘ + opt + b: 快照回放。很有意思的功能，你可以对你的操作根据时间轴进行回放。可以拖动下方的时间轴，也可以按左右方向键
 ```
+
+## :big: 常用emoji
+
+* http://www.webpagefx.com/tools/emoji-cheat-sheet/
