@@ -1,11 +1,12 @@
 ---
-title: 工具
+title: iterm2分屏
 order: 0
 public: true
 ---
 
 # iterm2分屏
-```
+
+```javascript
 ⌘ + d: 垂直分屏，
 
 ⌘ + shift + d: 水平分屏。

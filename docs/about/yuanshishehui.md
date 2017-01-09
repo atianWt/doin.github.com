@@ -4,7 +4,8 @@ order: 0
 public: true
 ---
 
-# {{ page.title }} `{{ page.date | date_to_string }}`
+# 原始社会
+
 ### 需求描述
     * 解决朋友之间资源共享,资源利用最大化.
     * 以朋友这间物物交换的信任为入口,最后实现同城的SNS化交易.

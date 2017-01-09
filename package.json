@@ -1,6 +1,6 @@
 {
   "name": "site",
-  "description": "ssdata docs",
+  "description": "doin docs",
   "scripts": {
     "browser-sync": "browser-sync start -s ./dist -f ./dist --no-inject-changes --reload-delay 1500 --open external",
     "start": "npm run dev",
@@ -15,9 +15,9 @@
     "url": ""
   },
   "keywords": [
-    "ssdata"
+    "doin"
   ],
-  "author": "ssdata",
+  "author": "doin",
   "license": "MIT",
   "bugs": {
     "url": ""
