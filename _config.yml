@@ -1,7 +1,0 @@
-before_deploy:
-  - tnpm i tnpm@release-4
-  - ./node_modules/.bin/tnpm i
-  - ./node_modules/.bin/tnpm run build
-options:
-  branch: 'gh-pages'
-  dist: './dist'
