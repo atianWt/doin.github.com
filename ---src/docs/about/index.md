@@ -17,18 +17,3 @@ Hello world!
   console.log('Hello world!');
 })();
 ```
-
-```demo/demoFileName1/会生成一个独立的事例文件
-<h1>hello world!</h1>
-<script>
-(function () {
-  console.log('Hello world!');
-})();
-</script>
-```
-
-```demo/demoFileName2/会生成另外一个独立的事例文件
-(function () {
-  console.log('Hello world!');
-})();
-```
