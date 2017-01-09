@@ -1,17 +1,9 @@
-## 更新原则1
-- 默认提交到master分支, 统一MR到prod.
-- prod分支为site自动部署分支
-
 ## 本地调试
-- `tnpm run local`
 - `tnpm start` 直接打开浏览器本地调试
 
-## 构建说明
-
-- 根据部署情况，改变**gulpfile.js**文件里面的**root**变量，绝对路径，不要域名,一定要以**/**结尾，这么做是为了减少路劲计算的工作
-- `tnpm i`
-- `tnpm run build`
-
+## 更新发布
+- tnpm start之后已经编译好, 直接push到master分支及可
+- 访问 http://doin.github.io
 
 ## 文档生成说明
 
@@ -49,28 +41,8 @@ desc: The first article which is posted by BiSheng.
 
 Hello world!
 
-{{{
-这里的内容是内部才可以看到的
-}}}
-
 ```js
 (function () {
   console.log('Hello world!');
 })();
 ```
-
-```demo/demoFileName1/会生成一个独立的事例文件
-<h1>hello world!</h1>
-<script>
-(function () {
-  console.log('Hello world!');
-})();
-</script>
-```
-
-```demo/demoFileName2/会生成另外一个独立的事例文件
-(function () {
-  console.log('Hello world!');
-})();
-```
-````
