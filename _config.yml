@@ -3,6 +3,5 @@ before_deploy:
   - ./node_modules/.bin/tnpm i
   - ./node_modules/.bin/tnpm run build
 options:
-  branch: 'prod'
+  branch: 'gh-pages'
   dist: './dist'
-cname: 'ssdata.alibaba.net'
