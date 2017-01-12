@@ -1,5 +1,5 @@
 ---
-title: 原始社会1
+title: 原始社会
 order: 4
 public: true
 ---
