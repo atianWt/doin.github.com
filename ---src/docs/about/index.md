@@ -1,19 +1,8 @@
 ---
-title: 原始社会
-order: 4
+title: $. 为什么要做这个站
+order: -999
 public: true
 ---
 
-# 原始社会1
-
-Hello world!
-
-{{{
-这里的内容是内部才可以看到的
-}}}
-
-```js
-(function () {
-  console.log('Hello world!');
-})();
-```
+# 为什么要做这个站
+`介绍自我, 记录生活, 学习成长`

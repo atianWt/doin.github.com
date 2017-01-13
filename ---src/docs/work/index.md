@@ -1,8 +1,10 @@
 ---
-title: iterm2分屏
+title: $. 工作BLOG只是一部分
 order: 0
 public: true
 ---
+
+# 工作BLOG只是一部分
 
 ## :big: 常用emoji
 
