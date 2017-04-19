@@ -8,7 +8,6 @@ body {
     background-color: #2B2B2B;
     color: #F0F0F0;
     font-family: '微软雅黑';
-    padding: 0 50px;
     background: url(https://zos.alipayobjects.com/rmsportal/PcbdtnLYADUigXLkCXeX.jpg) no-repeat;
     height: 100%;
     width: 100%;
@@ -28,7 +27,6 @@ body {
     background-color: #2B2B2B;
     color: #F0F0F0;
     font-family: '\5FAE\8F6F\96C5\9ED1';
-    padding: 0 50px;
 }
 #control div {
     background-color: rgba(106, 106, 106, 0.42);
