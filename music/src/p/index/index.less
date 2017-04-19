@@ -1,0 +1,150 @@
+h1 {
+  text-align: center;
+}
+html {
+  height: 100%;
+}
+body {
+  background-color: #2B2B2B;
+  color: #F0F0F0;
+  font-family: '微软雅黑';
+  padding: 0 50px;
+  background: url(https://zos.alipayobjects.com/rmsportal/PcbdtnLYADUigXLkCXeX.jpg) no-repeat;
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+}
+ul {
+  margin: 0 auto;
+  width: 240px;
+  padding: 0;
+}
+#control div,
+.playlist li {
+  height: 30px;
+  cursor: pointer;
+}
+body {
+  background-color: #2B2B2B;
+  color: #F0F0F0;
+  font-family: '\5FAE\8F6F\96C5\9ED1';
+  padding: 0 50px;
+}
+#control div {
+  background-color: rgba(106, 106, 106, 0.42);
+  margin: 5px;
+  line-height: 30px;
+  text-align: center;
+  display: inline-block;
+  padding: 0 5px;
+}
+#playlist ul {
+  padding: 0;
+}
+.playlist li {
+  text-indent: 16px;
+  font: 14px/1.5 tahoma;
+  width: 240px;
+  overflow: hidden;
+  line-height: 30px;
+  background-color: rgba(255, 255, 255, 0.22);
+  margin-bottom: 8px;
+}
+.playlist .cur {
+  background-color: rgba(218, 54, 54, 0.52);
+}
+h3 {
+  padding-left: 40px;
+}
+#control {
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.08);
+  margin: 0 auto;
+  width: 300px;
+}
+.load1 .d2_progress {
+  width: 350px;
+  height: 2px;
+  background-color: #6495ed;
+}
+.load1 .d2_load {
+  background-color: #fafafa;
+  width: 100px;
+  height: 2px;
+}
+.load1 .d2_time {
+  height: 40px;
+  display: inline-block;
+  text-align: right;
+}
+.load1 {
+  width: 350px;
+  height: 40px;
+  margin: 22px auto 10px;
+}
+
+.imgs {
+  border: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  display: block;
+  margin: 10px auto 18px;
+  -webkit-animation:change 2s linear infinite;
+}
+
+
+@-webkit-keyframes rotate {
+  0%,
+  100% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes rotate {
+  0%,
+  100% {
+    -moz-transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-o-keyframes rotate {
+  0%,
+  100% {
+    -o-transform: rotate(0deg);
+  }
+  100% {
+    -o-transform: rotate(360deg);
+  }
+}
+@-ms-keyframes rotate {
+  0%,
+  100% {
+    -ms-transform: rotate(0deg);
+  }
+  100% {
+    -ms-transform: rotate(360deg);
+  }
+}
+@keyframes rotate {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.imgs{//为了尽可能兼容各个浏览器
+  -moz-animation: rotate 10s linear infinite;
+  -webkit-animation: rotate 10s linear infinite;
+  -o-animation: rotate 10s linear infinite;
+  -ms-animation: rotate 10s linear infinite;
+  animation: rotate 10s linear infinite;
+}
+
+

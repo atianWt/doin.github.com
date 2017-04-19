@@ -1,0 +1,21 @@
+{
+  "name": "atian",
+  "group": "tb",
+  "version": "0.0.1",
+  "type": "cake",
+  "builder": "@ali/builder-cake",
+  "author": "韩升",
+  "options": {
+    "builderReflect": true,
+    "babel": false
+  },
+  "info": {
+    "extraLib": "null",
+    "platform": ["pc"],
+    "project": "app",
+    "workflow": "normal"
+  },
+  "build_ignore": [
+    "./build"
+  ]
+}
