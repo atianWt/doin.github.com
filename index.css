@@ -90,4 +90,61 @@ h3 {
     border-radius: 50px;
     display: block;
     margin: 10px auto 18px;
+    -webkit-animation:change 2s linear infinite;
 }
+
+
+@-webkit-keyframes rotate {
+    0%,
+    100% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+@-moz-keyframes rotate {
+    0%,
+    100% {
+        -moz-transform: rotate(0deg);
+    }
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+@-o-keyframes rotate {
+    0%,
+    100% {
+        -o-transform: rotate(0deg);
+    }
+    100% {
+        -o-transform: rotate(360deg);
+    }
+}
+@-ms-keyframes rotate {
+    0%,
+    100% {
+        -ms-transform: rotate(0deg);
+    }
+    100% {
+        -ms-transform: rotate(360deg);
+    }
+}
+@keyframes rotate {
+    0%,
+    100% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.imgs{//为了尽可能兼容各个浏览器
+-moz-animation: rotate 10s linear infinite;
+    -webkit-animation: rotate 10s linear infinite;
+    -o-animation: rotate 10s linear infinite;
+    -ms-animation: rotate 10s linear infinite;
+    animation: rotate 10s linear infinite;
+}
+
+
