@@ -10,6 +10,9 @@ body {
     font-family: '微软雅黑';
     padding: 0 50px;
     background: url(http://www.castlecover.co.uk/resources/legends/rise-of-bowie/img/intro-bg.jpg) no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
 }
 ul {
     margin: 0 auto;
